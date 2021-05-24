@@ -1,0 +1,24 @@
+runtime: nodejs12
+service: ui-staging
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
+    redirect_http_response_code: 301
+
+env_variables:
+  CHINGU_ENV: 'staging'
+  COOKIE_SECRET: 'gi2xEvLDtZMYEVVF93P09zoP0aU/ItjmrvNTippItXNSWRrlMT/rg7YDra9g1xev'
+  JWT_SECRET: 'Xyf0ywkK0BUkQ+dxqvxeyLD3pLXP5b7OcBBONfWYYKW2GE/LrFtrvttb8n3oNXRO'
+  API_DOMAIN: 'https://api.staging.chingu.io'
+  LOG_LEVEL: 'debug'
+  COOKIE_DOMAIN: 'staging.chingu.io'
+  SENTRY_DSN: 'https://bebae955d9fc4f018fc0af027f4bdff4@o419255.ingest.sentry.io/5330680'
+  STRIPE_API_KEY: 'pk_test_yIHwedm3UKBavN4uRagJmdet00rn37gaWb'
+  GITHUB_CLIENT_ID: 'Iv1.4a34ea71d5a8b045'
+  GITHUB_CLIENT_SECRET: '9c3c493bdebd956200320f699061169bdb6e83f7'
+  GITHUB_REDIRECT_URI: 'https://staging.chingu.io/settings?auth=github'
+  DISCORD_CLIENT_ID: '687282613697642509'
+  DISCORD_CLIENT_SECRET: 'yQGBdfyIsjNaMgWkRmRXmjkS4EzkP0mA'
+  DISCORD_REDIRECT_URI: 'https://staging.chingu.io/settings?auth=discord'

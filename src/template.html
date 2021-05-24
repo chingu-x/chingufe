@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" 
+      content="Chingu, Inc. - Get out of Tutorial Purgatory. All 
+        self-directed developers run into the same problems. No team
+        experience, feeling lost working alone, endless tutorials, not
+        enough finished projects. The good news? Chingu solves them."/>
+
+    %sapper.base%
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages --> 
+    %sapper.styles%
+
+    <title>Chingu</title>
+    <!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+    %sapper.head%
+
+    <script
+      src="https://browser.sentry-cdn.com/5.19.1/bundle.min.js"
+      integrity="sha384-ibWewy8LWP0FdvEBD3iLjNmbFkkh/FKtOz8GR9C8ZBWjDTbjbdIDpa4nc/AasWns"
+      crossorigin="anonymous"
+    ></script>
+		<script src="https://js.stripe.com/v3" async></script>
+		
+		<script>
+			// Initialize Sentry
+			Sentry.init({ dsn: 'https://bebae955d9fc4f018fc0af027f4bdff4@o419255.ingest.sentry.io/5330680' });
+		</script>
+	  
+	  	  	  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145849284-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145849284-1');
+</script>
+
+	  
+	  
+	</head>
+  <body>
+    <!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+    <div id="sapper">%sapper.html%</div>
+
+    <!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+    %sapper.scripts%
+  </body>
+</html>

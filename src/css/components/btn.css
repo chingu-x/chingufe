@@ -1,0 +1,104 @@
+.btn {
+  @apply inline-flex items-center font-medium border transition ease-in-out duration-150 shadow-sm border-gray-300 text-gray-700 bg-white px-4 py-2 text-sm leading-5 rounded-md;
+
+  &:hover {
+    @apply text-gray-500;
+  }
+
+  &:focus {
+    @apply outline-none;
+  }
+
+  &:active {
+    @apply text-gray-800 bg-gray-100;
+  }
+
+  &.btn-primary {
+    @apply border-transparent text-white bg-green-600;
+
+    &:hover {
+      @apply bg-green-500;
+    }
+
+    &:focus {
+      @apply border-green-700 ring-green-100;
+    }
+
+    &:active {
+      @apply bg-green-700;
+    }
+  }
+
+  &.btn-secondary {
+    @apply border-transparent text-green-700 bg-green-100;
+
+    &:hover {
+      @apply bg-green-100;
+    }
+
+    &:focus {
+      @apply border-green-300 ring-green-100;
+    }
+
+    &:active {
+      @apply bg-green-200;
+    }
+  }
+  
+  & > svg {
+    @apply h-5 w-5;
+
+    &:first-child {
+      @apply -ml-1 mr-2;
+    }
+
+    &:last-child {
+      @apply ml-2 -mr-1;
+    }
+
+    &:only-child {
+      @apply mx-0;
+    }
+  }
+
+  &.btn-smallest {
+    @apply px-2.5 py-1.5 text-xs leading-4 rounded;
+
+    & > svg {
+      @apply hidden;
+    }
+  }
+
+  &.btn-small {
+    @apply px-3 py-2 text-sm leading-4 rounded-md;
+
+    & > svg {
+      @apply h-4 w-4;
+    }
+  }
+
+  &.btn-large {
+    @apply px-4 py-2 text-base leading-6 rounded-md;
+  }
+
+  &.btn-largest {
+    @apply px-6 py-3 text-base leading-6 rounded-md;
+  }
+
+  
+  &.btn-small > svg:first-child {
+    @apply -ml-0.5 mr-2;
+  }
+  
+  &.btn-small > svg:last-child {
+    @apply ml-2 -mr-0.5;
+  }
+
+  &.btn-large > svg:first-child, &.btn-largest > svg:first-child {
+    @apply -ml-1 mr-3;
+  }
+
+  &.btn-large > svg:last-child, &.btn-largest > svg:last-child {
+    @apply ml-3 -mr-1;
+  }
+}
