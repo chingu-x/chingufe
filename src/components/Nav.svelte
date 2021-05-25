@@ -8,7 +8,7 @@
   import Button from "./Button.svelte";
 
   export let segment;
-  export let user;
+  export let user = false;
   export let upcomingVoyage;
 
   let open = false;
@@ -38,15 +38,7 @@
   }
 
   function handleSignOut() {
-    return client(fetch)
-      .request({
-        query: `mutation signOut { signOut { error { message } } }`
-      })
-      .then(() => {
-        deleteAllCookies();
-        localStorage.clear();
-        return (window.location.href = "/");
-      });
+    
   }
 
 
@@ -65,127 +57,6 @@
 </script>
 
 <nav class="bg-white shadow-sm">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between h-16">
-      <div class="flex">
-        <div class="flex-shrink-0 flex items-center">
-          <a href="/">
-            <img class="h-8 w-auto" src="/logo-192x192.png" alt="Chingu" />
-          </a>
-        </div>
-        <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-          <a
-            href="/dashboard"
-            class="{baseClasses}
-            {segment === 'dashboard' ? activeClasses : inactiveClasses}">
-            Dashboard
-          </a>
-        </div>
-      </div>
-      {#if user}
-        <div class="hidden sm:ml-6 sm:flex sm:items-center">
-          <Button disabled={applyButtonDisabled} variant="primary" link="/apply" class="float-right">
-            {applyButtonText}
-          </Button>
-          <!-- Profile dropdown -->
-          <div use:away on:away={() => (open = false)} class="ml-3 relative">
-            <button
-              on:click={() => (open = !open)}
-              class="bg-white flex text-sm rounded-full focus:outline-none
-              focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
-              id="user-menu"
-              aria-haspopup="true">
-              <span class="sr-only">Open user menu</span>
-              {#if user.avatarUrl}
-                <img
-                  class="h-8 w-8 rounded-full"
-                  src={user.avatarUrl}
-                  alt={avatarAlt} />
-              {:else}
-                <svg
-                  class="h-8 w-8 rounded-full text-gray-300 border-gray-300
-                  border"
-                  fill="currentColor"
-                  viewBox="0 0 24 24">
-                  <path
-                    d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904
-                    0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0
-                    018 0z" />
-                </svg>
-              {/if}
-            </button>
-
-            <!-- Profile dropdown panel -->
-            {#if open}
-              <div
-                in:scale={{ duration: 100, start: 0.95, easing: cubicOut }}
-                out:scale={{ duration: 75, start: 0.95, easing: cubicIn }}
-                class="origin-top-right absolute right-0 mt-2 w-48 rounded-md
-                shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5"
-                role="menu"
-                aria-orientation="vertical"
-                aria-labelledby="user-menu">
-                <a
-                  href="/settings"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  role="menuitem">
-                  Settings
-                </a>
-
-                <button
-                  on:click|preventDefault={handleSignOut}
-                  class="w-full text-left block px-4 py-2 text-sm text-gray-700
-                  hover:bg-gray-100"
-                  role="menuitem">
-                  Sign out
-                </button>
-              </div>
-            {/if}
-          </div>
-        </div>
-      {/if}
-      <div class="-mr-2 flex items-center sm:hidden">
-        <!-- Mobile menu button -->
-        <button
-          on:click={() => (open = !open)}
-          class="bg-white inline-flex items-center justify-center p-2 rounded-md
-          text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none
-          focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class:hidden={open}
-            class:block={!open}
-            class="block h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            aria-hidden="true">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-          <svg
-            class:hidden={!open}
-            class:block={open}
-            class="hidden h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            aria-hidden="true">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
-    </div>
-  </div>
 
   <!-- Mobile menu -->
   {#if open}
