@@ -5,14 +5,15 @@
   const currentYear = currentDate.getFullYear();
 </script>
 
-<div class="min-h-screen bg-gray-100">
-  <Nav />
-  <slot />
-</div>
-
 <div class="bg-white">
   <div
     class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+
+    <div class="w-min-h-screen bg-gray-100">
+      <Nav />
+      <slot />
+    </div>
+
     <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
       <div class="px-5 py-2">
         <a
