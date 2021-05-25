@@ -99,14 +99,6 @@
               class="font-medium text-gray-500 hover:text-gray-900">
               Pricing
             </a>
-
-            <!--
-            <a
-              href="/dashboard"
-              class="font-medium text-green-600 hover:text-green-500">
-              {primaryLinkText}
-            </a>
-            -->
           </div>
         </nav>
       </div>
@@ -177,15 +169,6 @@
                   text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                   role="menuitem">
                   Pricing
-                </a>
-              </div>
-              <div role="none">
-                <a
-                  href="/dashboard"
-                  class="block w-full px-5 py-3 text-center font-medium
-                  text-green-600 bg-gray-50 hover:bg-gray-100"
-                  role="menuitem">
-                  {primaryLinkText}
                 </a>
               </div>
             </div>
