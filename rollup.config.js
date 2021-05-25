@@ -39,11 +39,6 @@ export default {
 					"process.browser": true,
 					"process.env.NODE_ENV": JSON.stringify(mode),
 					"process.env.DOMAIN": JSON.stringify(process.env.DOMAIN),
-					// "process.env.GITHUB_CLIENT_SECRET": JSON.stringify(process.env.GITHUB_CLIENT_SECRET),
-					// "process.env.GITHUB_REDIRECT_URI": JSON.stringify(process.env.GITHUB_REDIRECT_URI),
-					// "process.env.DISCORD_CLIENT_ID": JSON.stringify(process.env.DISCORD_CLIENT_ID),
-					// "process.env.DISCORD_CLIENT_SECRET": JSON.stringify(process.env.DISCORD_CLIENT_SECRET),
-					// "process.env.DISCORD_REDIRECT_URI": JSON.stringify(process.env.DISCORD_REDIRECT_URI),
 					delimiters: ['', '']
 				},
 			}),
