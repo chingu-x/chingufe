@@ -1,51 +1,6 @@
-<script context="module">
-  /*
-  import { client } from "../graphql";
-
-  export function preload(page, session) {
-    if(session) {
-      return client(this.fetch).request({
-        query: `
-            query dashboardQuery {
-              upcomingVoyage {
-                id
-                name
-                startDate
-              }
-
-              me {
-                id
-                firstName
-                lastName
-                avatarUrl
-                cityName
-                country {
-                  id
-                  name
-                  code
-                }
-                voyageMemberships {
-                  id
-                  status
-                  voyage {
-                    id
-                  }
-                }
-              }
-            }
-          `
-      });
-    }
-  }
-  */
-</script>
-
 <script>
   import { user } from '../stores';
   import Nav from "../components/Nav.svelte";
-  //export let me = null;
-  //export let upcomingVoyage = null;
-  //export let segment;
 
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
@@ -53,19 +8,8 @@
 
 <div class="min-h-screen bg-gray-100">
   <Nav />
-  <!-- <Nav {segment} user={ me } { upcomingVoyage } /> -->
   <slot />
 </div>
-<!--
-{#if !segment || ['signUp', 'signIn', 'pricing', 'requestPasswordReset', 'resetPassword', 'howItWorks'].includes(segment)}
-  <slot />
-{:else}
-  <div class="min-h-screen bg-gray-100">
-    <Nav {segment} user={me} {upcomingVoyage} />
-    <slot />
-  </div>
-{/if}
--->
 
 <div class="bg-white">
   <div
