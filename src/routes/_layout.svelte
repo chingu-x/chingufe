@@ -1,5 +1,4 @@
 <script>
-  import { user } from '../stores';
   import Nav from "../components/Nav.svelte";
 
   const currentDate = new Date();
