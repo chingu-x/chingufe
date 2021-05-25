@@ -1,3 +1,22 @@
+import sirv from 'sirv';
+import polka from 'polka';
+import compression from 'compression';
+import * as sapper from '@sapper/server';
+
+const { PORT, NODE_ENV } = process.env;
+const dev = NODE_ENV === 'development';
+
+polka() // You can also use Express
+	.use(
+		compression({ threshold: 0 }),
+		sirv('static', { dev }),
+		sapper.middleware()
+	)
+	.listen(PORT, err => {
+		if (err) console.log('error', err);
+	});
+
+/* 
 import Fastify from 'fastify';
 import * as Sentry from '@sentry/node';
 import * as sapper from "@sapper/server";
@@ -19,6 +38,7 @@ Sentry.init({
   environment: CHINGU_ENV,
   logLevel: LOG_LEVEL
 });
+
 
 process.on("unhandledRejection", function(err) {
   Sentry.captureException(err);
@@ -105,7 +125,9 @@ const start = async () => {
   });
 };
 
+
 start().catch(err => {
   Sentry.captureException(err);
   console.error(err);
 });
+*/

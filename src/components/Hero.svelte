@@ -6,14 +6,14 @@
   import Button from "../components/Button.svelte";
 
   export let session;
-  export let title;
-  export let subtitle;
-  export let description;
-  export let primaryHref;
-  export let primaryText;
-  export let secondaryHref;
-  export let secondaryText;
-  export let imageClass;
+  export let title = '';
+  export let subtitle = '';
+  export let description = '';
+  export let primaryHref = '';
+  export let primaryText = '';
+  export let secondaryHref = '';
+  export let secondaryText = '';
+  export let imageClass = '';
   export let images = [];
 
   const heroNavPaddingClasses = images.length ? "pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32" : "pb-6";

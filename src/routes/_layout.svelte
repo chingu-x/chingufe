@@ -1,4 +1,5 @@
 <script context="module">
+  /*
   import { client } from "../graphql";
 
   export function preload(page, session) {
@@ -36,19 +37,26 @@
       });
     }
   }
+  */
 </script>
 
 <script>
   import { user } from '../stores';
   import Nav from "../components/Nav.svelte";
-  export let me = null;
-  export let upcomingVoyage = null;
-  export let segment;
+  //export let me = null;
+  //export let upcomingVoyage = null;
+  //export let segment;
 
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
 </script>
 
+<div class="min-h-screen bg-gray-100">
+  <Nav />
+  <!-- <Nav {segment} user={ me } { upcomingVoyage } /> -->
+  <slot />
+</div>
+<!--
 {#if !segment || ['signUp', 'signIn', 'pricing', 'requestPasswordReset', 'resetPassword', 'howItWorks'].includes(segment)}
   <slot />
 {:else}
@@ -57,6 +65,7 @@
     <slot />
   </div>
 {/if}
+-->
 
 <div class="bg-white">
   <div

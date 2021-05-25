@@ -9,9 +9,9 @@
   import Hero from "../components/Hero.svelte";
 
   export let session;
-  let linkText = session ? "Dashboard" : "Sign in";
-  let linkLocation = session ? "/dashboard" : "/signIn";
-  let open = false;
+  //let linkText = session ? "Dashboard" : "Sign in";
+  //let linkLocation = session ? "/dashboard" : "/signIn";
+  //let open = false;
 </script>
 
 <Hero {session} />

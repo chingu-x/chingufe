@@ -60,18 +60,12 @@
     -o-transition: max-height .35s;
     transition: max-height .35s;
   }
+  
   /* :checked - resize to full height */
   .tab input:checked ~ .tab-content {
     max-height: 100vh;
   }
-  /* Label formatting when open */
-  .tab input:checked + label{
-    font-size: 1.25rem; /* .text-xl */
-    padding: 1.25rem; /* .p-5 */
-    border-left-width: 2px; /* .border-l-2 */
-    border-color: #68d391; /* .border-green-400 */
-    background-color: #f8fafc; /* .bg-gray-100 */
-  }
+
   /* Icon */
   .tab label::after {
     float: left;
