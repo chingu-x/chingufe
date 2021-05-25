@@ -1,0 +1,24 @@
+steps:
+  - name: node
+    entrypoint: npm
+    args: ["install"]
+  - name: node
+    entrypoint: npm
+    args: ["run", "build"]
+    env:
+      - "CHINGU_ENV=production"
+      - "COOKIE_SECRET=HMe3g6uDpPWVQqkikxrClhEHzRMZUcSwjD/mB+9UpV96owHINluzazjriyQJrrfE"
+      - "JWT_SECRET=DjwVD/V4TSiGWn/pN6BSPO6W+xzLWhUr6Zkwocpp9Y04TgN1VIbF9JhPEIuoDFnY"
+      - "API_DOMAIN=https://api.chingu.io"
+      - "COOKIE_DOMAIN=chingu.io"
+      - "SENTRY_DSN=https://bebae955d9fc4f018fc0af027f4bdff4@o419255.ingest.sentry.io/5330680"
+      - "STRIPE_API_KEY=pk_live_GdgKKus7O2cX81VtYxf22PI600qZHpvAs3"
+      - "GITHUB_CLIENT_ID=Iv1.d3c7d8a4611df52f"
+      - "GITHUB_CLIENT_SECRET=fae7d13e08cbf212e935ce6521861c57122a977e"
+      - "GITHUB_REDIRECT_URI=https://chingu.io/settings?auth=github"
+      - "DISCORD_CLIENT_ID=687282517560131618"
+      - "DISCORD_CLIENT_SECRET=In-bjqtv8HkDUg3mski4JIpZzbrOHLl6"
+      - "DISCORD_REDIRECT_URI=https://chingu.io/settings?auth=discord"
+  - name: "gcr.io/cloud-builders/gcloud"
+    args: ["app", "deploy"]
+timeout: "1600s"

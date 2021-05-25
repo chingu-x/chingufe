@@ -3,16 +3,16 @@
   "description": "Chingu",
   "version": "0.0.1",
   "scripts": {
-    "watch:tailwind": "postcss src/css/index.css -o static/index.css -w",
-    "build:tailwind": "NODE_ENV=production postcss src/css/index.css -o static/index.css",
-    "start:dev": "env-cmd sapper dev",
-    "dev": "concurrently \"npm:watch:tailwind\" \"npm:start:dev\"",
-    "build": "npm run build:tailwind && sapper build --legacy",
-    "export": "sapper export --legacy",
+    "watch:css": "postcss src/assets/global.pcss -o static/global.css -w",
+    "watch:dev": "sapper dev",
+    "dev": "run-p watch:*",
+    "build": "run-s build:css build:sapper",
+    "build:css": "NODE_ENV=production postcss src/assets/global.pcss -o static/global.css",
+    "build:sapper": "sapper build",
+    "build:export": "sapper export",
+    "export": "run-s build:css build:export",
     "start": "node __sapper__/build",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
-    "test": "run-p --race dev cy:run"
+    "serve": "serve ___sapper__/export"
   },
   "dependencies": {
     "@google-cloud/profiler": "^4.1.0",

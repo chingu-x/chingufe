@@ -7,9 +7,9 @@
   //import { client } from "../graphql";
   import Button from "./Button.svelte";
 
-  export let segment;
+  export let segment = '';
   export let user = false;
-  export let upcomingVoyage;
+  export let upcomingVoyage = '';
 
   let open = false;
   let avatarAlt = user ? `${user.firstName} ${user.lastName}` : "";
