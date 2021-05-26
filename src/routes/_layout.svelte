@@ -1,66 +1,15 @@
-<script context="module">
-  import { client } from "../graphql";
-
-  export function preload(page, session) {
-    if(session) {
-      return client(this.fetch).request({
-        query: `
-            query dashboardQuery {
-              upcomingVoyage {
-                id
-                name
-                startDate
-              }
-
-              me {
-                id
-                firstName
-                lastName
-                avatarUrl
-                cityName
-                country {
-                  id
-                  name
-                  code
-                }
-                voyageMemberships {
-                  id
-                  status
-                  voyage {
-                    id
-                  }
-                }
-              }
-            }
-          `
-      });
-    }
-  }
-</script>
-
 <script>
-  import { user } from '../stores';
-  import Nav from "../components/Nav.svelte";
-  export let me = null;
-  export let upcomingVoyage = null;
-  export let segment;
-
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
 </script>
 
-{#if !segment || ['signUp', 'signIn', 'pricing', 'requestPasswordReset', 'resetPassword', 'howItWorks'].includes(segment)}
-  <slot />
-{:else}
-  <div class="min-h-screen bg-gray-100">
-    <Nav {segment} user={me} {upcomingVoyage} />
-    <slot />
-  </div>
-{/if}
-
 <div class="bg-white">
-  <div
-    class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+  <div class="max-w-screen-xl mx-auto px-4 overflow-hidden sm:px-6 lg:px-8">
+
+    <div class="w-min-h-screen bg-gray-100">
+      <slot />
+    </div>
+
     <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
       <div class="px-5 py-2">
         <a

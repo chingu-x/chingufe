@@ -34,17 +34,13 @@ export default {
 		output: config.client.output(),
 		plugins: [
 			replace({
-				"process.browser": true,
-				"process.env.NODE_ENV": JSON.stringify(mode),
-				"process.env.DOMAIN": JSON.stringify(process.env.DOMAIN),
-				"process.env.STRIPE_API_KEY": JSON.stringify(process.env.STRIPE_API_KEY),
-				"process.env.GITHUB_CLIENT_ID": JSON.stringify(process.env.GITHUB_CLIENT_ID),
-				"process.env.GITHUB_CLIENT_SECRET": JSON.stringify(process.env.GITHUB_CLIENT_SECRET),
-				"process.env.GITHUB_REDIRECT_URI": JSON.stringify(process.env.GITHUB_REDIRECT_URI),
-				"process.env.DISCORD_CLIENT_ID": JSON.stringify(process.env.DISCORD_CLIENT_ID),
-				"process.env.DISCORD_CLIENT_SECRET": JSON.stringify(process.env.DISCORD_CLIENT_SECRET),
-				"process.env.DISCORD_REDIRECT_URI": JSON.stringify(process.env.DISCORD_REDIRECT_URI),
-				delimiters: ['', '']
+				preventAssignment: true,
+				values: {
+					"process.browser": true,
+					"process.env.NODE_ENV": JSON.stringify(mode),
+					"process.env.DOMAIN": JSON.stringify(process.env.DOMAIN),
+					delimiters: ['', '']
+				},
 			}),
 			svelte({
 				dev,
@@ -98,8 +94,11 @@ export default {
 		output: config.server.output(),
 		plugins: [
 			replace({
-				"process.browser": false,
-				"process.env.NODE_ENV": JSON.stringify(mode)
+				preventAssignment: true,
+				values: {
+					"process.browser": false,
+					"process.env.NODE_ENV": JSON.stringify(mode)
+				},
 			}),
 			svelte({
 				generate: "ssr",
@@ -127,8 +126,11 @@ export default {
 		plugins: [
 			resolve(),
 			replace({
-				"process.browser": true,
-				"process.env.NODE_ENV": JSON.stringify(mode)
+				preventAssignment: true,
+				values: {
+					"process.browser": true,
+					"process.env.NODE_ENV": JSON.stringify(mode)
+				}
 			}),
 			commonjs(),
 			!dev && terser()
