@@ -12,10 +12,6 @@
   import HowItWorksSection from "../components/HowItWorks-Section.svelte";
   import Button from "../components/Button.svelte";
   export let session;
-
-  //let linkText = session ? "Dashboard" : "Sign in";
-  //let linkLocation = session ? "/dashboard" : "/signIn";
-  //let open = false;
 </script>
 
 <Hero
@@ -25,7 +21,7 @@
   description="The Chingu Voyage is a remote 6-week program for web developers.
   You will build a project in a remote team and level-up with the technical and
   soft skills required in a professional software job."
-  primaryHref="https://forms.gle/A2j8WwWct2moVd4z6"
+  primaryHref="https://forms.gle/jYqoaMfJeW5Mw2r16"
   primaryText="Apply"
   class="object-center"
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
@@ -120,9 +116,7 @@
     answers={['Yes, Chingu was designed for this. Companies want to hire experienced \
       developers.', "With each Voyage you'll be adding projects to your\
       portfolio, refining your technical and soft skills, and leveling up \
-      your expertise. All of the things employers are looking for.", 'You may choose from our Voyage Plan for a single Voyage or you can \
-      sign up for our Job Ready Plan so you can take your career to the \
-      next level over 6 Voyages.']} />
+      your expertise. All of the things employers are looking for."]} />
   <Faq
     id="3"
     question={'Can I get a job from doing Chingu Voyages?'}
@@ -161,7 +155,7 @@
   <Faq
     id="7"
     question={'How much time do I have to commit?'}
-    answers={['We consider part-time to be around 15 hours a week and \
+    answers={['We consider part-time to be around 12 hours a week and \
       full-time to be 25 or more hours a week. For you to get the \
       full benefits, Chingu must be a priority during \
       the duration of your Voyage.', "However, we understand that your availability may vary from \
