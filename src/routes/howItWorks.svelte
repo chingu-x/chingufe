@@ -22,7 +22,7 @@
   You will build a project in a remote team and level-up with the technical and
   soft skills required in a professional software job."
   primaryHref="https://forms.gle/jYqoaMfJeW5Mw2r16"
-  primaryText="Apply"
+  primaryText="Apply for free"
   class="object-center"
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
 

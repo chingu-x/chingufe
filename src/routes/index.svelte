@@ -27,7 +27,7 @@
   experience, feeling lost working alone, endless tutorials, not enough finished
   projects. The good news? Chingu solves them."
   primaryHref="https://forms.gle/jYqoaMfJeW5Mw2r16"
-  primaryText="Get started"
+  primaryText="Apply for free"
   secondaryHref="/howItWorks"
   secondaryText="Learn more"
   imageClass="object-top lg:object-left"
