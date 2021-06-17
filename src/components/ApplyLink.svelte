@@ -4,5 +4,5 @@
   border border-transparent text-base font-medium rounded-md
   text-white bg-green-600 hover:bg-green-700 md:py-4
   md:text-lg md:px-10">
-  Apply
+  Apply for free
 </a>
