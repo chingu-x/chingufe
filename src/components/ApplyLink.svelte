@@ -1,5 +1,5 @@
 <a
-  href="https://forms.gle/56ANJu61c38tRoT48" target="_blank"
+  href="https://forms.gle/56ANJu61c38tRoT48"
   onclick="getOutboundLink('https://forms.gle/56ANJu61c38tRoT48'); return false;"
   class="w-full flex items-center justify-center px-8 py-3
   border border-transparent text-base font-medium rounded-md
