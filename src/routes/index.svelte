@@ -8,7 +8,6 @@
   import { scale } from "svelte/transition";
   import ApplyLink from "../components/ApplyLink.svelte"
   import Hero from "../components/Hero.svelte";
-  import LandingMetric from "../components/Landing-Metric.svelte";
   import LandingProcessStep from "../components/Landing-ProcessStep.svelte";
   import LandingProjectExample from "../components/Landing-ProjectExample.svelte";
   import Testimonial from "../components/Testimonial.svelte";
@@ -33,33 +32,36 @@
   imageClass="object-top lg:object-left"
   images={[{ type: 'jpg', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.jpg', alt: 'Woman coding in a cafe' }, { type: 'webp', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.webp', alt: 'Woman coding in a cafe' }]} />
 
-<div class="bg-gray-50 pt-12 sm:pt-16">
-  <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2
-        class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl
-        sm:leading-10">
-        Level-up your career from anywhere
-      </h2>
-      <p class="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
-        We place motivated people with similar goals together in project teams
-        which allows them level-up in ways they couldn't otherwise.
-      </p>
-    </div>
-  </div>
-  <div class="mt-10 pb-12 bg-white sm:pb-16">
-    <div class="relative">
-      <div class="absolute inset-0 h-1/2 bg-gray-50" />
-      <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto">
-          <div class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
-            <LandingMetric metric={'2,028'} description={'Developer Teams'} />
-            <LandingMetric
-              metric={'11,150+'}
-              description={'Coders & Designers'} />
-            <LandingMetric
-              metric={'3,200+'}
-              description={'Pair-programming hours'} />
+<div class="bg-white pt-4">
+  <div class="bg-gray-100 py-6 lg:py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+          Innovative companies hire Chingu's
+        </h2>
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          Our members have found positions at some of the world's leading companies.
+        </p>
+      </div>
+      <div class="flow-root mt-8 lg:mt-10">
+        <div class="flex flex-wrap">
+          <div class="flex flex-grow flex-shrink-0">
+            <img class="h-36 -mt-12" src="/landing/microsoft-logo.svg" alt="Microsoft">
+          </div>
+          <div class="flex flex-grow flex-shrink-0">
+            <img class="h-12 mt-2" src="/landing/amazon-logo.png" alt="Amazon">
+          </div>
+          <div class="flex flex-grow flex-shrink-0">
+            <img class="h-12 bg-opacity-0" src="/landing/redhat-logo.png" alt="Red Hat">
+          </div>
+          <div class="flex flex-grow flex-shrink-0">
+            <img class="h-12" src="/landing/linkedin-logo.svg" alt="LinkedIn">
+          </div>
+          <div class="flex flex-grow flex-shrink-0">
+            <img class="h-12" src="/landing/facebook-logo.png" alt="Facebook">
+          </div>
+          <div class="flex flex-grow flex-shrink-0">
+            <img class="h-12" src="/landing/intel-logo.png" alt="Intel">
           </div>
         </div>
       </div>
@@ -67,42 +69,42 @@
   </div>
 </div>
 
-<div
-  class="relative bg-gray-50 pt-12 pb-20 px-4 sm:px-6 lg:pt-16 lg:pb-28 lg:px-8">
-  <div class="absolute inset-0">
-    <div class="bg-white h-1/3 sm:h-2/3" />
-  </div>
-  <div class="relative max-w-7xl mx-auto">
-    <div class="text-center">
-      <h2
-        class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-        A collaborative learning experience
-      </h2>
-      <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-        You will leave Chingu with portfolio projects, confidence from
-        experience, and the soft skills that the 21st century world needs.
-      </p>
+<div class="bg-white pt-4">
+  <div class="bg-white py-6 lg:py-10">
+    <div class="absolute inset-0">
+      <div class="h-1/3 sm:h-2/3" />
     </div>
-    <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-      <ProjectCard
-        title="Gain experience in a remote team"
-        description="57% of full-time entry-level jobs now ask for 3 years or
-        more of experience."
-        image={[{ type: 'avif', img: '/landing/RemoteTeam2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/RemoteTeam2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/RemoteTeam2.png', alt: 'Team project' }]} />
-      <ProjectCard
-        title="Work on real projects"
-        description="Sick of doing tutorial after tutorial with nothing to show
-        for them?"
-        image={[{ type: 'avif', img: '/landing/RealProjects2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/RealProjects2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/RealProjects2.png', alt: 'Team project' }]} />
-      <ProjectCard
-        title="Join a supportive community"
-        description="It can be hard to find someone to help you get unstuck."
-        image={[{ type: 'avif', img: '/landing/SupportiveCommunity2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/SupportiveCommunity2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/SupportiveCommunity2.png', alt: 'Team project' }]} />
+    <div class="relative max-w-7xl mx-auto">
+      <div class="text-center">
+        <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+          A collaborative learning experience
+        </h2>
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          You will leave Chingu with portfolio projects, confidence from
+          experience, and the soft skills that the 21st century world needs.
+        </p>
+      </div>
+      <div class="mt-12 px-4 max-w-lg mx-auto grid gap-4 lg:grid-cols-3 lg:max-w-none">
+        <ProjectCard
+          title="Gain experience in a remote team"
+          description="57% of full-time entry-level jobs now ask for 3 years or
+          more of experience."
+          image={[{ type: 'avif', img: '/landing/RemoteTeam2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/RemoteTeam2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/RemoteTeam2.png', alt: 'Team project' }]} />
+        <ProjectCard
+          title="Work on real projects"
+          description="Sick of doing tutorial after tutorial with nothing to show
+          for them?"
+          image={[{ type: 'avif', img: '/landing/RealProjects2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/RealProjects2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/RealProjects2.png', alt: 'Team project' }]} />
+        <ProjectCard
+          title="Join a supportive community"
+          description="It can be hard to find someone to help you get unstuck."
+          image={[{ type: 'avif', img: '/landing/SupportiveCommunity2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/SupportiveCommunity2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/SupportiveCommunity2.png', alt: 'Team project' }]} />
+      </div>
     </div>
   </div>
 </div>
 
-<div class="bg-gray-50 pb-10">
+<div class="bg-gray-100 pb-10">
   <LandingSection
     name={'What Developers Think'}
     title={'Chingu has guided thousands of developers on learning adventures'}
@@ -166,7 +168,7 @@
 </div>
 
 <div
-  class="flex flex-col flex-wrap bg-gray-50 w-full sm:items-center
+  class="flex flex-col flex-wrap bg-gray-100 w-full sm:items-center
   justify-center">
   <LandingSection
     name={'How Voyages Work'}
@@ -209,7 +211,7 @@
   </div>
 </div>
 
-<div class="bg-gray-50">
+<div class="bg-white">
   <div
     class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex
     lg:items-center lg:justify-between">
@@ -222,9 +224,6 @@
     </h2>
     <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
       <ApplyLink />
-      <!--
-      <Button variant="primary" size="large" link="/apply">Apply</Button>
-      -->
     </div>
   </div>
 </div>
