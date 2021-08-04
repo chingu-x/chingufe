@@ -46,13 +46,10 @@
       <div class="flow-root mt-8 lg:mt-10">
         <div class="flex flex-wrap">
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-36 -mt-12" src="/landing/microsoft-logo.svg" alt="Microsoft">
-          </div>
-          <div class="flex flex-grow flex-shrink-0">
             <img class="h-12 mt-2" src="/landing/amazon-logo.png" alt="Amazon">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 bg-opacity-0" src="/landing/redhat-logo.png" alt="Red Hat">
+            <img class="h-12" src="/landing/redhat-logo.png" alt="Red Hat">
           </div>
           <div class="flex flex-grow flex-shrink-0">
             <img class="h-12" src="/landing/linkedin-logo.svg" alt="LinkedIn">
@@ -62,6 +59,9 @@
           </div>
           <div class="flex flex-grow flex-shrink-0">
             <img class="h-12" src="/landing/intel-logo.png" alt="Intel">
+          </div>
+          <div class="flex flex-grow flex-shrink-0">
+            <img class="h-36 -mt-12" src="/landing/microsoft-logo.svg" alt="Microsoft">
           </div>
         </div>
       </div>
