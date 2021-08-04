@@ -40,7 +40,7 @@
           Leading companies hire Chingus
         </h2>
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-          We've helped people get jobs at places like these:
+          We've helped people get jobs at organizations like these:
         </p>
       </div>
       <div class="flow-root mt-8 lg:mt-10">
