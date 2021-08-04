@@ -43,22 +43,22 @@
           We've helped people get jobs at organizations like these:
         </p>
       </div>
-      <div class="flow-root mt-8 lg:mt-10">
+      <div class="flow-root mt-10 lg:mt-10">
         <div class="flex flex-wrap">
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-2" src="/landing/amazon-logo.png" alt="Amazon">
+            <img class="h-12 mt-2 mr-3 md:mr-auto" src="/landing/amazon-logo.png" alt="Amazon">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12" src="/landing/redhat-logo.png" alt="Red Hat">
+            <img class="h-12 mt-4 md:mt-0" src="/landing/redhat-logo.png" alt="Red Hat">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12" src="/landing/linkedin-logo.svg" alt="LinkedIn">
+            <img class="h-12 mt-4 md:mt-0" src="/landing/linkedin-logo.svg" alt="LinkedIn">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12" src="/landing/facebook-logo.png" alt="Facebook">
+            <img class="h-12 mt-4 md:mt-0" src="/landing/facebook-logo.png" alt="Facebook">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12" src="/landing/intel-logo.png" alt="Intel">
+            <img class="h-12 mt-4 md:mt-0" src="/landing/intel-logo.png" alt="Intel">
           </div>
           <div class="flex flex-grow flex-shrink-0">
             <img class="h-36 -mt-12" src="/landing/microsoft-logo.svg" alt="Microsoft">
