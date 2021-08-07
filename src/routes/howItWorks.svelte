@@ -10,6 +10,7 @@
   import Faq from "../components/HowItWorks-Faq.svelte";
   import Hero from "../components/Hero.svelte";
   import HowItWorksSection from "../components/HowItWorks-Section.svelte";
+  import LandingMetric from "../components/Landing-Metric.svelte";
   import Button from "../components/Button.svelte";
   export let session;
 </script>
@@ -26,7 +27,44 @@
   class="object-center"
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
 
-<div class="bg-gray-100 pb-6 lg:pb-10">
+<div class="bg-white pt-6 sm:pt-10">
+  <div class="bg-gray-100 pt-6 lg:pt-10">
+    <div class="bg-gray-100 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2
+          class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl
+          sm:leading-10">
+          Level-up your career from anywhere
+        </h2>
+        <p class="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
+          We place motivated people with similar goals together in project teams
+          which allows them level-up in ways they couldn't otherwise.
+        </p>
+      </div>
+    </div>
+    <div class="mt-10 pb-12 bg-grey-100 sm:pb-16">
+      <div class="relative">
+        <div class="absolute inset-0 h-1/2 bg-gray-100" />
+        <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-4xl mx-auto">
+            <div class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+              <LandingMetric metric={'2,028'} description={'Developer Teams'} />
+              <LandingMetric
+                metric={'11,150+'}
+                description={'Coders & Designers'} />
+              <LandingMetric
+                metric={'3,200+'}
+                description={'Pair-programming hours'} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="bg-white pb-6 lg:pb-10">
   <HowItWorksSection
     photoOn={'left'}
     name={'Learn to Collaborate'}
@@ -38,7 +76,7 @@
     details={['Participate in weekly team standups', 'Real-time messaging & async communication', 'Participate in text / audio / video meetings (all depends on your preference as a team)', 'Overcome real challenges developers face on the job']} />
 </div>
 
-<div class="bg-white pb-6 lg:pb-10">
+<div class="bg-gray-100 pb-6 lg:pb-10">
   <HowItWorksSection
     photoOn={'right'}
     name={'Use Real World Tools'}
@@ -51,7 +89,7 @@
       your project']} />
 </div>
 
-<div class="bg-gray-100 pb-6 lg:pb-10">
+<div class="bg-white pb-6 lg:pb-10">
   <HowItWorksSection
     photoOn={'left'}
     name={'Grow & Thrive'}
@@ -63,7 +101,7 @@
     details={['Deadlines will make you actually finish your projects', 'Our deadlines will give structure to your learning journey', 'Get out of tutorial purgatory']} />
 </div>
 
-<div class="bg-white pb-6 lg:pb-10">
+<div class="bg-gray-100 pb-6 lg:pb-10">
   <HowItWorksSection
     photoOn={'right'}
     name={'Learn Soft Skills'}
@@ -76,7 +114,7 @@
     details={['Learn how to communicate your ideas in a professional setting', 'Collaborate with people with different mindsets and from different countries', 'Improve your time-management skills']} />
 </div>
 
-<div class="bg-gray-100 pb-6 lg:pb-10">
+<div class="bg-white pb-6 lg:pb-10">
   <HowItWorksSection
     photoOn={'left'}
     name={'Learn about Pair Programming'}
@@ -88,7 +126,7 @@
     details={['Meet a new coder every week to solve a coding challenge (optional)', 'Take what you know to the next level by sharing your knowledge with others', 'Learn new technologies and techniques from your peers']} />
 </div>
 
-<div class="bg-white pb-6 lg:pb-10">
+<div class="bg-gray-100 pb-6 lg:pb-10">
   <HowItWorksSection
     photoOn={'none'}
     name={'FAQ'}

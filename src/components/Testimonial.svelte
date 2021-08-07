@@ -14,7 +14,7 @@
   const padding = display === "standalone" ? "py-12 md:py-20 lg:py-24" : "py-3";
 </script>
 
-<section class="bg-gray-50 overflow-hidden {padding} mb-8 lg:mb-12">
+<section class="overflow-hidden {padding} mb-8 lg:mb-12">
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     {#if display === 'standalone'}
       <svg class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" role="img" aria-labelledby="svg-testimonial">
