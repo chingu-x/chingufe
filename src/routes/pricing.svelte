@@ -167,15 +167,6 @@
               <div class="mt-6">
                 <div class="rounded-md shadow">
                 <ApplyLink />
-                  <!--
-                  <a
-                    href="/apply"
-                    class="flex items-center justify-center px-5 py-3 border
-                    border-transparent text-base font-medium rounded-md
-                    text-white bg-green-800 hover:bg-green-900">
-                    Apply
-                  </a>
-                  -->
                 </div>
               </div>
             </div>
@@ -277,15 +268,6 @@
       <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">
           <ApplyLink />
-          <!--
-          <a
-            href="/apply"
-            class="bg-green-600 border border-transparent rounded-md py-3 px-5
-            inline-flex items-center justify-center text-base font-medium
-            text-white hover:bg-green-700">
-            Get started
-          </a>
-          -->
         </div>
       </div>
     </div>
