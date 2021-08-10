@@ -1,5 +1,5 @@
 <a
-  href="https://forms.gle/56ANJu61c38tRoT48" target="_blank"
+  href="https://forms.gle/WBgVR5N6ADVSWmSv7" target="_blank"
   class="w-full flex items-center justify-center px-8 py-3
   border border-transparent text-base font-medium rounded-md
   text-white bg-green-600 hover:bg-green-700 md:py-4

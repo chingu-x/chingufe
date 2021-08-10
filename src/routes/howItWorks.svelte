@@ -22,7 +22,7 @@
   description="The Chingu Voyage is a remote 6-week program for web developers.
   You will build a project in a remote team and level-up with the technical and
   soft skills required in a professional software job."
-  primaryHref="https://forms.gle/56ANJu61c38tRoT48"
+  primaryHref="https://forms.gle/WBgVR5N6ADVSWmSv7"
   primaryText="Apply for free"
   class="object-center"
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
@@ -246,9 +246,6 @@
     </h2>
     <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
       <ApplyLink />
-      <!--
-      <Button variant="primary" size="large" link="/apply">Apply</Button>
-      -->
     </div>
   </div>
 </div>
