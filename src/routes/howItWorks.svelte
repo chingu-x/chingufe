@@ -17,11 +17,11 @@
 
 <Hero
   {session}
-  title="Collaborate and"
-  subtitle="gain real experience"
-  description="The Chingu Voyage is a remote 6-week program for web developers.
-  You will build a project in a remote team and level-up with the technical and
-  soft skills required in a professional software job."
+  title="Boost your career"
+  subtitle="with team projects"
+  description="All self-directed developers run into the same problems. No team
+  experience, feeling lost working alone, endless tutorials, not enough finished
+  projects. The good news? Chingu solves them."
   primaryHref="https://forms.gle/WBgVR5N6ADVSWmSv7"
   primaryText="Apply for free"
   class="object-center"
