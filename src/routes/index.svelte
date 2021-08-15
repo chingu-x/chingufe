@@ -25,7 +25,7 @@
   description="The Chingu Voyage is a remote 6-week program for web developers.
   You will build a project in a remote team and level-up with the technical and
   soft skills required in a professional software job."
-  primaryHref="https://forms.gle/WBgVR5N6ADVSWmSv7"
+  primaryHref="https://forms.gle/1etR3NUdyKRF6kZg9"
   primaryText="Apply for free"
   secondaryHref="/howItWorks"
   secondaryText="Learn more"

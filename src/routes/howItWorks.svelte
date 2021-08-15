@@ -22,7 +22,7 @@
   description="All self-directed developers run into the same problems. No team
   experience, feeling lost working alone, endless tutorials, not enough finished
   projects. The good news? Chingu solves them."
-  primaryHref="https://forms.gle/WBgVR5N6ADVSWmSv7"
+  primaryHref="https://forms.gle/1etR3NUdyKRF6kZg9"
   primaryText="Apply for free"
   class="object-center"
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
