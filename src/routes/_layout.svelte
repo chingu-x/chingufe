@@ -10,7 +10,7 @@
       <slot />
     </div>
 
-    <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
+    <nav class="-mx-5 my-2 flex flex-wrap justify-center">
       <div class="px-5 py-2">
         <a
           href="mailto:support@chingu.io"

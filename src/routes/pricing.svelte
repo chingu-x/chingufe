@@ -17,7 +17,7 @@
 <Hero {session} />
 
 <div class="bg-white">
-  <div class="bg-gray-100">
+  <div class="bg-green-50">
     <div class="pt-12 sm:pt-16 lg:pt-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
@@ -33,8 +33,8 @@
     </div>
     <div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-12">
       <div class="relative">
-        <div class="absolute inset-0 h-1/2 bg-gray-100" />
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="absolute inset-0 h-1/2 bg-green-50" />
+        <div class="bg-green-50 relative max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
           <div
             class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden
             lg:max-w-none lg:flex">
@@ -176,7 +176,7 @@
     </div>
   </div>
 
-  <div class="mt-8 bg-green-900">
+  <div class="mt-4 bg-green-900">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-extrabold text-white">
         Frequently asked questions
@@ -255,7 +255,8 @@
     </div>
   </div>
 
-  <!-- CTA section -->
+  <div class="bg-white h-6"/>
+
   <div class="bg-green-50">
     <div
       class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex

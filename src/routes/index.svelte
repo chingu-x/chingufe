@@ -33,7 +33,7 @@
   images={[{ type: 'jpg', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.jpg', alt: 'Woman coding in a cafe' }, { type: 'webp', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.webp', alt: 'Woman coding in a cafe' }]} />
 
 <div class="bg-white pt-4">
-  <div class="bg-gray-100 py-6 lg:py-10">
+  <div class="bg-green-50 py-6 lg:py-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
@@ -104,7 +104,7 @@
   </div>
 </div>
 
-<div class="bg-gray-100 pb-10">
+<div class="bg-green-50 pb-10">
   <LandingSection
     name={'What Developers Think'}
     title={'Chingu has guided thousands of developers on learning adventures'}
@@ -167,56 +167,12 @@
   </div>
 </div>
 
-<div
-  class="flex flex-col flex-wrap bg-gray-100 w-full sm:items-center
-  justify-center">
-  <LandingSection
-    name={'How Voyages Work'}
-    title={'The Chingu Process'}
-    description={'Chingu follows an Agile methodology to create an \
-      environment where you can level-up your "hard" & "soft" skills while \
-      providing you with the freedom to be creative.'} />
-
-  <div
-    class="flex flex-col flex-wrap flex-grow-0 flex-shrink-0 h-auto w-auto
-    justify-center sm:ml-0 lg:ml-32 pb-8">
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep1.svg', alt: 'Chingu process step #1' }]}
-      name={'1. Apply'}
-      description={'Your learning adventure starts the moment you decide to \
-        join Chingu.'} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep2.svg', alt: 'Chingu process step #2' }]}
-      name={'2. Validate your expertise through a Solo Project'}
-      description={"Finish or submit a project to make sure you're prepared \
-        for the program."} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep3.svg', alt: 'Chingu process step #3' }]}
-      name={'3. Be placed in a team'}
-      description={'Get placed in a remote team of Chingus eager to learn.'} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep4.svg', alt: 'Chingu process step #4' }]}
-      name={'4. Build, build, build'}
-      description={'Decide on a project and build it together. Practice \
-        critical team workflow.'} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep5.svg', alt: 'Chingu process step #5' }]}
-      name={'5. Overcome obstacles'}
-      description={'Overcome obstacles real developers face. Level up as a \
-        human.'} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep6.svg', alt: 'Chingu process step #6' }]}
-      name={'6. Succeed & repeat'}
-      description={'Get a job, join another Voyage - or do both.'} />
-  </div>
-</div>
-
-<div class="bg-white">
+<div class="bg-green-50">
   <div
     class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex
     lg:items-center lg:justify-between">
     <h2
-      class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900
+      class="text-3xl leading-9 font-extrabold tracking-tight text-green-900
       sm:text-4xl sm:leading-10">
       Ready to dive in?
       <br />

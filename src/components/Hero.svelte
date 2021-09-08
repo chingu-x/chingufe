@@ -99,6 +99,12 @@
               class="font-medium text-gray-500 hover:text-gray-900">
               Pricing
             </a>
+
+            <a
+              href="/faq"
+              class="font-medium text-gray-500 hover:text-gray-900">
+              FAQ
+            </a>
           </div>
         </nav>
       </div>
