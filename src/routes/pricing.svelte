@@ -190,8 +190,15 @@
               How can I know I'm ready?
             </dt>
             <dd class="mt-2 text-base text-green-200">
-              The minimum requirement is that you have a basic understanding of
-              HTML, CSS, and JavaScript.
+              You will need at least basic HTML / CSS and Javascript skills to 
+              qualify for a Chingu Voyage.', 'Know more than that? Chingu has you covered! 
+              Our Voyages have three different tiers separated by skill 
+              level (beginners, intermediate, advanced) so you can work in the Tier 
+              you are most comfortable in. We also require you to complete a 
+              Solo Project prior to starting your first Voyage so you can discover 
+              what Tier you best fit into.', 'TL;DR - We encourage people at any level (including beginners) to 
+              join, as our Solo Projects are designed to inspire / help people 
+              gain the skills they need to be eligible to join.
             </dd>
           </div>
 
@@ -200,9 +207,12 @@
               Can I get a job from doing Chingu Voyages?
             </dt>
             <dd class="mt-2 text-base text-green-200">
-              Yes, every week we see members getting jobs! Those who have
-              successfully completed 3 Voyages at the tier-3 level are generally
-              considered to be job ready.
+              Yes, every week we see members getting a job. Members who have 
+              successfully completed 3 Voyages at the tier-3 level generally are 
+              job ready. They have gained the skills necessary to build multiple 
+              full-stack applications, have at least 4.5 months of experience 
+              working on real projects in real teams, and understand the
+              importance of soft skills.
             </dd>
           </div>
 
@@ -238,6 +248,43 @@
               In a Voyage you’ll be matched with other teammates in the same
               tier, in similar timezones and who have similar technical
               interests.
+            </dd>
+          </div>
+
+          <div>
+            <dt class="text-lg leading-6 font-medium text-white">
+              Is the Voyage okay for Beginners?
+            </dt>
+            <dd class="mt-2 text-base text-green-200">
+              You will need to know basic CSS, HTML, and a programming language 
+              like Javascript or Python. But, even if you are not ready now, 
+              you can use the Solo Project to help build and refine your skills 
+              to prepare you for the Voyage.
+            </dd>
+          </div>
+
+          <div>
+            <dt class="text-lg leading-6 font-medium text-white">
+              What is the Solo Project project?
+            </dt>
+            <dd class="mt-2 text-base text-green-200">
+              The Solo Project allows new Chingus 
+              to find out which Tier they best fit in, and build a project 
+              from start to finish to ensure they are ready for the team Voyage
+              project.', "The solo projects are organized by Tier and requires skills that match 
+              the tier that best suits your current skill level. Don't worry if you 
+              find that you have selected the wrong tier - you can change your tier 
+              at any time.
+            </dd>
+          </div>
+
+          <div>
+            <dt class="text-lg leading-6 font-medium text-white">
+              What if something happens and I cannot join the next Voyage session?
+            </dt>
+            <dd class="mt-2 text-base text-green-200">
+              No worries. Just let us know by emailing your plans to 
+              support@chingu.io
             </dd>
           </div>
 
