@@ -104,7 +104,7 @@
   </div>
 </div>
 
-<div class="bg-green-50 pb-10">
+<div class="bg-orange-50 pb-10">
   <LandingSection
     name={'What Developers Think'}
     title={'Chingu has guided thousands of developers on learning adventures'}

@@ -28,8 +28,8 @@
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
 
 <div class="bg-white pt-6 sm:pt-10">
-  <div class="bg-green-50 pt-6 lg:pt-10">
-    <div class="bg-green-50 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="bg-orange-50 pt-6 lg:pt-10">
+    <div class="bg-orange-50 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
         <h2
           class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl
@@ -42,7 +42,7 @@
         </p>
       </div>
     </div>
-    <div class="mt-10 pb-12 bg-green-50 sm:pb-16">
+    <div class="mt-10 pb-12 bg-orange-50 sm:pb-16">
       <div class="relative">
         <div class="absolute inset-0 h-1/2 bg-green-50" />
         <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -76,7 +76,7 @@
     details={['Participate in weekly team standups', 'Real-time messaging & async communication', 'Participate in text / audio / video meetings (all depends on your preference as a team)', 'Overcome real challenges developers face on the job']} />
 </div>
 
-<div class="bg-green-50 pb-6 lg:pb-10">
+<div class="bg-orange-50 pb-6 lg:pb-10">
   <HowItWorksSection
     photoOn={'right'}
     name={'Use Real World Tools'}
@@ -101,7 +101,7 @@
     details={['Deadlines will make you actually finish your projects', 'Our deadlines will give structure to your learning journey', 'Get out of tutorial purgatory']} />
 </div>
 
-<div class="bg-green-50 pb-6 lg:pb-10">
+<div class="bg-orange-50">
   <HowItWorksSection
     photoOn={'right'}
     name={'Learn Soft Skills'}
@@ -127,7 +127,7 @@
 </div>
 
 <div
-  class="flex flex-col flex-wrap bg-green-50 w-full sm:items-center
+  class="flex flex-col flex-wrap bg-orange-50 w-full sm:items-center
   justify-center">
   <LandingSection
     name={'How Voyages Work'}
@@ -170,7 +170,9 @@
   </div>
 </div>
 
-<div class="bg-white">
+<div class="bg-white h-6"/>
+
+<div class="bg-green-50">
   <div
     class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex
     lg:items-center lg:justify-between">
