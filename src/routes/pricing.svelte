@@ -183,7 +183,7 @@
       </h2>
       <div class="mt-6 border-t border-green-400 border-opacity-25 pt-10">
         <dl
-          class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2
+          class="space-y-8 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2
           md:gap-x-8 md:gap-y-12">
           <div>
             <dt class="text-lg leading-6 font-medium text-white">

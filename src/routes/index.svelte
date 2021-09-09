@@ -33,7 +33,7 @@
   images={[{ type: 'jpg', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.jpg', alt: 'Woman coding in a cafe' }, { type: 'webp', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.webp', alt: 'Woman coding in a cafe' }]} />
 
 <div class="bg-white pt-4">
-  <div class="bg-green-50 py-6 lg:py-10">
+  <div class="bg-orange-50 py-6 lg:py-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
