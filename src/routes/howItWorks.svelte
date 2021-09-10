@@ -24,7 +24,7 @@
   projects. The good news? Chingu solves them."
   primaryHref="https://forms.gle/1etR3NUdyKRF6kZg9"
   primaryText="Apply for free"
-  class="object-center"
+  heroClass="object-center"
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
 
 <div class="bg-white pt-6 sm:pt-10">

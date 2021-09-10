@@ -9,6 +9,7 @@
   export let title = '';
   export let subtitle = '';
   export let description = '';
+  export let heroClass = '';
   export let primaryHref = '';
   export let primaryText = '';
   export let secondaryHref = '';
@@ -22,7 +23,7 @@
   let open = false;
 </script>
 
-<div class="relative bg-white" class:overflow-hidden={images.length}>
+<div class="relative bg-white {heroClass}" class:overflow-hidden={images.length}>
   <div class="max-w-7xl mx-auto">
     <div
       class="relative z-10 bg-white lg:max-w-2xl lg:w-full {heroNavPaddingClasses}">
