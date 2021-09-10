@@ -8,6 +8,7 @@
   import { scale } from "svelte/transition";
   import ApplyLink from "../components/ApplyLink.svelte"
   import Hero from "../components/Hero.svelte";
+  import HowItWorksLink from "../components/HowItWorksLink.svelte";
   import LandingProcessStep from "../components/Landing-ProcessStep.svelte";
   import LandingProjectExample from "../components/Landing-ProjectExample.svelte";
   import Testimonial from "../components/Testimonial.svelte";
@@ -178,8 +179,9 @@
       <br />
       <span class="text-green-600">Join Chingu today.</span>
     </h2>
-    <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+    <div class="w-1/2 mt-8 flex gap-x-4 lg:flex-shrink-0 lg:mt-0">
       <ApplyLink />
+      <HowItWorksLink />
     </div>
   </div>
 </div>
