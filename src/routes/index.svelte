@@ -179,7 +179,7 @@
       <br />
       <span class="text-green-600">Join Chingu today.</span>
     </h2>
-    <div class="w-1/2 mt-8 flex gap-x-4 lg:flex-shrink-0 lg:mt-0">
+    <div class="w-full md:w-1/2 mt-8 gap-x-4 lg:flex-shrink-0 lg:mt-0 sm:flex sm:justify-center lg:justify-start">
       <ApplyLink />
       <HowItWorksLink />
     </div>
