@@ -77,7 +77,7 @@
   </p>
 
   <p class="mt-4">
-    If you you have questions about this privacy policy contact us at
+    If you have questions about this privacy policy contact us at
     <a
       href="mailto:support@chingu.io"
       target="_blank"
