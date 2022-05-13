@@ -12,7 +12,7 @@
 </script>
 
 <picture>
-  <img class="h-full object-fill {className}" src={defaultImage.img} alt={defaultImage.alt} style="object-fit: cover;"/>
+  <img class="h-full object-cover {className}" src={defaultImage.img} alt={defaultImage.alt}/>
   {#each remainingImages as image, i}
     <source srcset={image.img} type={`image/${image.type}`} />
   {/each}
