@@ -1,16 +1,19 @@
-const postcssLoadConfig = require("postcss-load-config");
-const postcss = require("postcss");
+import adapter from '@sveltejs/adapter-netlify'
+import preprocess from 'svelte-preprocess'
 
-module.exports = {
-	preprocess: {
-		style: ({ content, filename }) =>
-			postcssLoadConfig().then(({ plugins }) =>
-				postcss(plugins)
-					.process(content, { from: filename, map: { inline: false } })
-					.then(result => ({
-						code: result.css,
-						map: result.map.toJSON()
-					}))
-			)
-	}
-};
+const config = {
+  preprocess: preprocess({ postcss: true }),
+
+  kit: {
+    adapter: adapter({
+      edge: false,
+      split: false
+    }),
+    env: {
+      dir: process.cwd(),
+      publicPrefix: 'PUBLIC_'
+    },
+  }
+}
+
+export default config
