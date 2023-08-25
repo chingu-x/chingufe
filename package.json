@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "files": [
-		"build",
-		"src"
-	],
+    "build",
+    "src"
+  ],
   "scripts": {
     "watch:tailwind": "postcss src/css/index.css -o static/index.css -w",
     "dev": "vite dev",
@@ -20,9 +20,6 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@google-cloud/profiler": "^4.1.0",
-    "@sentry/node": "^5.30.0",
-    "@stripe/stripe-js": "^1.11.0",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/postcss7-compat": "^2.0.2",
@@ -48,7 +45,6 @@
     "moment": "^2.29.1",
     "pino-pretty": "^4.3.0",
     "postcss": "^7.0.35",
-    "svelte-apollo": "^0.3.0",
     "svelte-check": "^3.5.0",
     "svelte-preprocess": "^5.0.4",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
@@ -70,7 +66,7 @@
     "postcss-load-config": "^2.1.2",
     "postcss-nesting": "^7.0.1",
     "stylelint-config-recommended": "^3.0.0",
-    "svelte": "^3.24.1",
+    "svelte": "^4.0.0",
     "vite": "^4.0.0"
   }
 }

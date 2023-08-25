@@ -107,8 +107,8 @@
 
       {#if open}
         <div
-          in:scale={{ duration: 100, start: 0.95, easing: cubicOut }}
-          out:scale={{ duration: 75, start: 0.95, easing: cubicIn }}
+          in:scale|global={{ duration: 100, start: 0.95, easing: cubicOut }}
+          out:scale|global={{ duration: 75, start: 0.95, easing: cubicIn }}
           class="absolute top-0 inset-x-0 p-2 transition transform
           origin-top-right md:hidden">
           <div
