@@ -26,23 +26,10 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const COOKIE_SECRET: string;
-	export const JWT_SECRET: string;
-	export const LOG_LEVEL: string;
 	export const PORT: string;
-	export const SENTRY_DSN: string;
-	export const NODE_EXTRA_CA_CERTS: string;
-	export const STRIPE_API_KEY: string;
-	export const GITHUB_CLIENT_ID: string;
-	export const GITHUB_CLIENT_SECRET: string;
-	export const GITHUB_REDIRECT_URI: string;
-	export const DISCORD_CLIENT_ID: string;
-	export const DISCORD_CLIENT_SECRET: string;
 	export const DOMAIN: string;
 	export const CHINGU_ENV: string;
-	export const API_DOMAIN: string;
 	export const COOKIE_DOMAIN: string;
-	export const DISCORD_REDIRECT_URI: string;
 	export const NVM_RC_VERSION: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
@@ -136,23 +123,10 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		COOKIE_SECRET: string;
-		JWT_SECRET: string;
-		LOG_LEVEL: string;
 		PORT: string;
-		SENTRY_DSN: string;
-		NODE_EXTRA_CA_CERTS: string;
-		STRIPE_API_KEY: string;
-		GITHUB_CLIENT_ID: string;
-		GITHUB_CLIENT_SECRET: string;
-		GITHUB_REDIRECT_URI: string;
-		DISCORD_CLIENT_ID: string;
-		DISCORD_CLIENT_SECRET: string;
 		DOMAIN: string;
 		CHINGU_ENV: string;
-		API_DOMAIN: string;
 		COOKIE_DOMAIN: string;
-		DISCORD_REDIRECT_URI: string;
 		NVM_RC_VERSION: string;
 		TERM_PROGRAM: string;
 		NODE: string;
