@@ -1,9 +1,3 @@
-<script context="module">
-  export function preload(page, session) {
-    return { session };
-  }
-</script>
-
 <script>
   import { scale } from "svelte/transition";
   import ApplyLink from "../components/ApplyLink.svelte"
@@ -16,11 +10,9 @@
   import ProjectCard from "../components/ProjectCard.svelte";
   import Picture from "../components/Picture.svelte";
   import Button from "../components/Button.svelte";
-  export let session;
 </script>
 
 <Hero
-  {session}
   title="Collaborate and"
   subtitle="gain real experience"
   description="Turn what you've learned online, in bootcamps, & in schools into 
@@ -33,14 +25,14 @@
   imageClass="object-top lg:object-left"
   images={[{ type: 'jpg', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.jpg', alt: 'Woman coding in a cafe' }, { type: 'webp', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.webp', alt: 'Woman coding in a cafe' }]} />
 
-<div class="bg-white pt-4">
-  <div class="bg-orange-50 py-6 lg:py-10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="pt-4 bg-white">
+  <div class="py-6 bg-orange-50 lg:py-10">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="text-center">
-        <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           Leading companies hire Chingus
         </h2>
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+        <p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">
           We've helped people get jobs at organizations like these:
         </p>
       </div>
@@ -59,7 +51,7 @@
             <img class="h-12 mt-4 md:mt-0" src="/landing/facebook-logo.png" alt="Facebook">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-36 -mt-6 md:-mt-12" src="/landing/microsoft-logo.svg" alt="Microsoft">
+            <img class="-mt-6 h-36 md:-mt-12" src="/landing/microsoft-logo.svg" alt="Microsoft">
           </div>
           <div class="flex flex-grow flex-shrink-0">
             <img class="h-12 mt-0 md:mt-0" src="/landing/linkedin-logo.svg" alt="LinkedIn">
@@ -70,22 +62,22 @@
   </div>
 </div>
 
-<div class="bg-white pt-4">
-  <div class="bg-white py-6 lg:py-10">
+<div class="pt-4 bg-white">
+  <div class="py-6 bg-white lg:py-10">
     <div class="absolute inset-0">
       <div class="h-1/3 sm:h-2/3" />
     </div>
-    <div class="relative max-w-7xl mx-auto">
+    <div class="relative mx-auto max-w-7xl">
       <div class="text-center">
-        <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           A collaborative learning experience
         </h2>
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+        <p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">
           You will leave Chingu with portfolio projects, confidence from
           experience, and the soft skills that the 21st century world needs.
         </p>
       </div>
-      <div class="mt-12 px-4 max-w-lg mx-auto grid gap-4 lg:grid-cols-3 lg:max-w-none">
+      <div class="grid max-w-lg gap-4 px-4 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
         <ProjectCard
           title="Gain experience in a remote team"
           description="57% of full-time entry-level jobs now ask for 3 years or
@@ -105,7 +97,7 @@
   </div>
 </div>
 
-<div class="bg-orange-50 pb-10">
+<div class="pb-10 bg-orange-50">
   <LandingSection
     name={'What Developers Think'}
     title={'Chingu has guided thousands of developers on learning adventures'}
@@ -141,8 +133,8 @@
       build & launch real projects. We match learners from all skill levels, \
       all timezones, and a variety of different tech stacks.'} />
 
-  <div class="flex m-auto h-auto justify-center items-end">
-    <div class="flex items-end flex-wrap">
+  <div class="flex items-end justify-center h-auto m-auto">
+    <div class="flex flex-wrap items-end">
       <LandingProjectExample
         name={'Jobbatical Landing Page'}
         description={'A job listings and job application app for working \
@@ -170,16 +162,14 @@
 
 <div class="bg-green-50">
   <div
-    class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex
-    lg:items-center lg:justify-between">
+    class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
     <h2
-      class="text-3xl leading-9 font-extrabold tracking-tight text-green-900
-      sm:text-4xl sm:leading-10">
+      class="text-3xl font-extrabold leading-9 tracking-tight text-green-900 sm:text-4xl sm:leading-10">
       Ready to dive in?
       <br />
       <span class="text-green-600">Join Chingu today.</span>
     </h2>
-    <div class="w-full md:w-1/2 mt-8 gap-x-4 lg:flex-shrink-0 lg:mt-0 sm:flex sm:justify-center lg:justify-start">
+    <div class="w-full mt-8 md:w-1/2 gap-x-4 lg:flex-shrink-0 lg:mt-0 sm:flex sm:justify-center lg:justify-start">
       <ApplyLink />
       <HowItWorksLink />
     </div>

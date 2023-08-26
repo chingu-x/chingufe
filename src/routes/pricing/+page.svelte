@@ -1,20 +1,10 @@
-<script context="module">
-  export function preload(page, session) {
-    return { session };
-  }
-</script>
-
 <script>
   import ApplyLink from "../../components/ApplyLink.svelte"
   import Hero from "../../components/Hero.svelte";
 
-  export let session;
-  //let linkText = session ? "Dashboard" : "Sign in";
-  //let linkLocation = session ? "/dashboard" : "/signIn";
-  //let open = false;
 </script>
 
-<Hero {session} />
+<Hero/>
 
 <div class="bg-white">
   <div class="bg-green-50">

@@ -1,9 +1,3 @@
-<script context="module">
-  export function preload(page, session) {
-    return { session };
-  }
-</script>
-
 <script>
   import ApplyLink from "../../components/ApplyLink.svelte"
   import Hero from "../../components/Hero.svelte"
@@ -11,12 +5,9 @@
   import LandingMetric from "../../components/Landing-Metric.svelte";
   import LandingSection from "../../components/Landing-Section.svelte";
   import LandingProcessStep from "../../components/Landing-ProcessStep.svelte";
-
-  export let session;
 </script>
 
 <Hero
-  {session}
   title="Boost your career"
   subtitle="with team projects"
   description="All self-directed developers run into the same problems. No team
