@@ -9,8 +9,6 @@
         self-directed developers run into the same problems. No team
         experience, feeling lost working alone, endless tutorials, not
         enough finished projects. The good news? Chingu solves them."/>
-
-    %sapper.base%
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -20,16 +18,11 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link rel="stylesheet" href="index.css" />
 
-    <!-- Sapper generates a <style> tag containing critical CSS
-	     for the current page. CSS for the rest of the app is
-	     lazily loaded when it precaches secondary pages --> 
-    %sapper.styles%
-
     <title>Chingu</title>
     <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
 
-    %sapper.head%	  
+    %sveltekit.head%	  
 	  <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN61QRGD5Z"></script>
     <script>
@@ -44,11 +37,6 @@
   <body>
     <!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-    <div id="sapper">%sapper.html%</div>
-
-    <!-- Sapper creates a <script> tag containing `src/client.js`
-	     and anything else it needs to hydrate the app and
-	     initialise the router -->
-    %sapper.scripts%
+    %sveltekit.body%
   </body>
 </html>

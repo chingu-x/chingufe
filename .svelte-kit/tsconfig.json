@@ -1,6 +1,13 @@
 {
 	"compilerOptions": {
-		"paths": {},
+		"paths": {
+			"$lib": [
+				"../src/lib"
+			],
+			"$lib/*": [
+				"../src/lib/*"
+			]
+		},
 		"rootDirs": [
 			"..",
 			"./types"
@@ -15,8 +22,7 @@
 		],
 		"moduleResolution": "node",
 		"module": "esnext",
-		"target": "esnext",
-		"ignoreDeprecations": "5.0"
+		"target": "esnext"
 	},
 	"include": [
 		"ambient.d.ts",
