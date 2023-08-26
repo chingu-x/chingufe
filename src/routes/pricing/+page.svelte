@@ -5,8 +5,8 @@
 </script>
 
 <script>
-  import ApplyLink from "../components/ApplyLink.svelte"
-  import Hero from "../components/Hero.svelte";
+  import ApplyLink from "../../components/ApplyLink.svelte"
+  import Hero from "../../components/Hero.svelte";
 
   export let session;
   //let linkText = session ? "Dashboard" : "Sign in";
@@ -19,7 +19,7 @@
 <div class="bg-white">
   <div class="bg-green-50">
     <div class="pt-12 sm:pt-16 lg:pt-20">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="text-center">
           <h2
             class="text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl">
@@ -31,14 +31,13 @@
         </div>
       </div>
     </div>
-    <div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-12">
+    <div class="pb-16 mt-8 bg-white sm:mt-12 sm:pb-20 lg:pb-12">
       <div class="relative">
         <div class="absolute inset-0 h-1/2 bg-green-50" />
-        <div class="bg-green-50 relative max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
+        <div class="relative px-4 pb-12 mx-auto bg-green-50 max-w-7xl sm:px-6 lg:px-8">
           <div
-            class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden
-            lg:max-w-none lg:flex">
-            <div class="flex-1 bg-white px-6 py-8 lg:p-12">
+            class="max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg lg:max-w-none lg:flex">
+            <div class="flex-1 px-6 py-8 bg-white lg:p-12">
               <h3 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
                 Voyage Membership
               </h3>
@@ -48,20 +47,18 @@
               <div class="mt-8">
                 <div class="flex items-center">
                   <h4
-                    class="flex-shrink-0 pr-4 bg-white text-sm tracking-wider
-                    font-semibold uppercase text-green-600">
+                    class="flex-shrink-0 pr-4 text-sm font-semibold tracking-wider text-green-600 uppercase bg-white">
                     What's included
                   </h4>
                   <div class="flex-1 border-t-2 border-gray-200" />
                 </div>
                 <ul
-                  class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2
-                  lg:gap-x-8 lg:gap-y-5">
+                  class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5">
                   <li class="flex items-start lg:col-span-1">
                     <div class="flex-shrink-0">
                       <!-- Heroicon name: check-circle -->
                       <svg
-                        class="h-5 w-5 text-green-400"
+                        class="w-5 h-5 text-green-400"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
                         fill="currentColor"
@@ -83,7 +80,7 @@
                     <div class="flex-shrink-0">
                       <!-- Heroicon name: check-circle -->
                       <svg
-                        class="h-5 w-5 text-green-400"
+                        class="w-5 h-5 text-green-400"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
                         fill="currentColor"
@@ -103,7 +100,7 @@
                     <div class="flex-shrink-0">
                       <!-- Heroicon name: check-circle -->
                       <svg
-                        class="h-5 w-5 text-green-400"
+                        class="w-5 h-5 text-green-400"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
                         fill="currentColor"
@@ -125,7 +122,7 @@
                     <div class="flex-shrink-0">
                       <!-- Heroicon name: check-circle -->
                       <svg
-                        class="h-5 w-5 text-green-400"
+                        class="w-5 h-5 text-green-400"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
                         fill="currentColor"
@@ -146,14 +143,12 @@
               </div>
             </div>
             <div
-              class="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex
-              lg:flex-col lg:justify-center lg:p-12">
-              <p class="text-lg leading-6 font-medium text-gray-900">
+              class="px-6 py-8 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+              <p class="text-lg font-medium leading-6 text-gray-900">
                 Join today to level-up your Developer career!
               </p>
               <div
-                class="mt-4 flex items-center justify-center text-5xl
-                font-extrabold text-gray-900">
+                class="flex items-center justify-center mt-4 text-5xl font-extrabold text-gray-900">
                 <span>$0</span>
                 <span class="ml-3 text-xl font-medium text-gray-500">USD</span>
               </div>
@@ -177,16 +172,15 @@
   </div>
 
   <div class="mt-4 bg-green-900">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-extrabold text-white">
         Frequently asked questions
       </h2>
-      <div class="mt-6 border-t border-green-400 border-opacity-25 pt-10">
+      <div class="pt-10 mt-6 border-t border-green-400 border-opacity-25">
         <dl
-          class="space-y-8 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2
-          md:gap-x-8 md:gap-y-12">
+          class="space-y-8 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               How can I know I'm ready?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -203,7 +197,7 @@
           </div>
 
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               Can I get a job from doing Chingu Voyages?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -217,7 +211,7 @@
           </div>
 
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               I just finished a coding bootcamp. Is Chingu for me?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -228,7 +222,7 @@
           </div>
 
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               How much time do I have to commit?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -241,7 +235,7 @@
           </div>
 
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               How do you organize Voyage teams?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -252,7 +246,7 @@
           </div>
 
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               Is the Voyage okay for Beginners?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -264,7 +258,7 @@
           </div>
 
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               What is the Solo Project project?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -279,7 +273,7 @@
           </div>
 
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               What if something happens and I cannot join the next Voyage session?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -289,7 +283,7 @@
           </div>
 
           <div>
-            <dt class="text-lg leading-6 font-medium text-white">
+            <dt class="text-lg font-medium leading-6 text-white">
               What if I have more questions?
             </dt>
             <dd class="mt-2 text-base text-green-200">
@@ -302,18 +296,17 @@
     </div>
   </div>
 
-  <div class="bg-white h-6"/>
+  <div class="h-6 bg-white"/>
 
   <div class="bg-green-50">
     <div
-      class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex
-      lg:items-center lg:justify-between">
+      class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
       <h2
         class="text-3xl font-extrabold tracking-tight text-green-900 sm:text-4xl">
         <span class="block">Ready to dive in?</span>
         <span class="block text-green-600">Start your voyage today.</span>
       </h2>
-      <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+      <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">
           <ApplyLink />
         </div>

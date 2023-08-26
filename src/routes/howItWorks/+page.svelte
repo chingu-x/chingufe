@@ -5,12 +5,12 @@
 </script>
 
 <script>
-  import ApplyLink from "../components/ApplyLink.svelte"
-  import Hero from "../components/Hero.svelte";
-  import HowItWorksSection from "../components/HowItWorks-Section.svelte";
-  import LandingMetric from "../components/Landing-Metric.svelte";
-  import LandingSection from "../components/Landing-Section.svelte";
-  import LandingProcessStep from "../components/Landing-ProcessStep.svelte";
+  import ApplyLink from "../../components/ApplyLink.svelte"
+  import Hero from "../../components/Hero.svelte"
+  import HowItWorksSection from "../../components/HowItWorks-Section.svelte";
+  import LandingMetric from "../../components/Landing-Metric.svelte";
+  import LandingSection from "../../components/Landing-Section.svelte";
+  import LandingProcessStep from "../../components/Landing-ProcessStep.svelte";
 
   export let session;
 </script>
@@ -27,13 +27,12 @@
   heroClass="object-center"
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
 
-<div class="bg-white pt-6 sm:pt-10">
-  <div class="bg-orange-50 pt-6 lg:pt-10">
-    <div class="bg-orange-50 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="pt-6 bg-white sm:pt-10">
+  <div class="pt-6 bg-orange-50 lg:pt-10">
+    <div class="max-w-screen-xl px-4 mx-auto bg-orange-50 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
         <h2
-          class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl
-          sm:leading-10">
+          class="text-3xl font-extrabold leading-9 text-gray-900 sm:text-4xl sm:leading-10">
           Level-up your career from anywhere
         </h2>
         <p class="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
@@ -42,12 +41,12 @@
         </p>
       </div>
     </div>
-    <div class="mt-10 pb-12 bg-orange-50 sm:pb-16">
+    <div class="pb-12 mt-10 bg-orange-50 sm:pb-16">
       <div class="relative">
         <div class="absolute inset-0 h-1/2 bg-green-50" />
-        <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
           <div class="max-w-4xl mx-auto">
-            <div class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+            <div class="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
               <LandingMetric metric={'2,028'} description={'Developer Teams'} />
               <LandingMetric
                 metric={'11,150+'}
@@ -64,7 +63,7 @@
 </div>
 
 
-<div class="bg-white pb-6 lg:pb-10">
+<div class="pb-6 bg-white lg:pb-10">
   <HowItWorksSection
     photoOn={'left'}
     name={'Learn to Collaborate'}
@@ -76,7 +75,7 @@
     details={['Participate in weekly team standups', 'Real-time messaging & async communication', 'Participate in text / audio / video meetings (all depends on your preference as a team)', 'Overcome real challenges developers face on the job']} />
 </div>
 
-<div class="bg-orange-50 pb-6 lg:pb-10">
+<div class="pb-6 bg-orange-50 lg:pb-10">
   <HowItWorksSection
     photoOn={'right'}
     name={'Use Real World Tools'}
@@ -89,7 +88,7 @@
       your project']} />
 </div>
 
-<div class="bg-white pb-6 lg:pb-10">
+<div class="pb-6 bg-white lg:pb-10">
   <HowItWorksSection
     photoOn={'left'}
     name={'Grow & Thrive'}
@@ -114,7 +113,7 @@
     details={['Learn how to communicate your ideas in a professional setting', 'Collaborate with people with different mindsets and from different countries', 'Improve your time-management skills']} />
 </div>
 
-<div class="bg-white pb-6 lg:pb-10">
+<div class="pb-6 bg-white lg:pb-10">
   <HowItWorksSection
     photoOn={'left'}
     name={'Learn about Pair Programming'}
@@ -127,8 +126,7 @@
 </div>
 
 <div
-  class="flex flex-col flex-wrap bg-orange-50 w-full sm:items-center
-  justify-center">
+  class="flex flex-col flex-wrap justify-center w-full bg-orange-50 sm:items-center">
   <LandingSection
     name={'How Voyages Work'}
     title={'The Chingu Process'}
@@ -137,8 +135,7 @@
       providing you with the freedom to be creative.'} />
 
   <div
-    class="flex flex-col flex-wrap flex-grow-0 flex-shrink-0 h-auto w-auto
-    justify-center sm:ml-0 lg:ml-32 pb-8">
+    class="flex flex-col flex-wrap justify-center flex-grow-0 flex-shrink-0 w-auto h-auto pb-8 sm:ml-0 lg:ml-32">
     <LandingProcessStep
       images={[{ type: 'svg', img: '/landing/ProcessStep1.svg', alt: 'Chingu process step #1' }]}
       name={'1. Apply'}
@@ -170,20 +167,18 @@
   </div>
 </div>
 
-<div class="bg-white h-6"/>
+<div class="h-6 bg-white"/>
 
 <div class="bg-green-50">
   <div
-    class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex
-    lg:items-center lg:justify-between">
+    class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
     <h2
-      class="text-3xl leading-9 font-extrabold tracking-tight text-green-900
-      sm:text-4xl sm:leading-10">
+      class="text-3xl font-extrabold leading-9 tracking-tight text-green-900 sm:text-4xl sm:leading-10">
       Ready to dive in?
       <br />
       <span class="text-green-600">Join Chingu today.</span>
     </h2>
-    <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+    <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
       <ApplyLink />
     </div>
   </div>
