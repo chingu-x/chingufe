@@ -1,4 +1,6 @@
 <script>
+  import "../app.css";
+
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
 </script>

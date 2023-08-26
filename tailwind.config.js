@@ -6,10 +6,6 @@ export default {
   content: [
     './src/**/*.{html,js,svelte,ts}'
   ],  
-  purge: [
-    './src/**/*.html',
-    './src/**/*.svelte',
-  ],
   theme: {
     colors: {
       transparent: 'transparent',
