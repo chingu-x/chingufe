@@ -26,10 +26,6 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const PORT: string;
-	export const DOMAIN: string;
-	export const CHINGU_ENV: string;
-	export const COOKIE_DOMAIN: string;
 	export const NVM_RC_VERSION: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
@@ -123,10 +119,6 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		PORT: string;
-		DOMAIN: string;
-		CHINGU_ENV: string;
-		COOKIE_DOMAIN: string;
 		NVM_RC_VERSION: string;
 		TERM_PROGRAM: string;
 		NODE: string;
