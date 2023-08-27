@@ -1,7 +1,6 @@
 <script>
   import { scale } from "svelte/transition";
   import { cubicIn, cubicOut } from "svelte/easing";
-  import { away } from "../actions/away";
   import Picture from "../components/Picture.svelte";
   import Button from "../components/Button.svelte";
 

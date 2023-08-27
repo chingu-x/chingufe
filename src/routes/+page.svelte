@@ -1,15 +1,11 @@
 <script>
-  import { scale } from "svelte/transition";
   import ApplyLink from "../components/ApplyLink.svelte"
   import Hero from "../components/Hero.svelte";
   import HowItWorksLink from "../components/HowItWorksLink.svelte";
-  import LandingProcessStep from "../components/Landing-ProcessStep.svelte";
   import LandingProjectExample from "../components/Landing-ProjectExample.svelte";
   import Testimonial from "../components/Testimonial.svelte";
   import LandingSection from "../components/Landing-Section.svelte";
   import ProjectCard from "../components/ProjectCard.svelte";
-  import Picture from "../components/Picture.svelte";
-  import Button from "../components/Button.svelte";
 </script>
 
 <Hero

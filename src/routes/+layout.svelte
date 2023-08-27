@@ -1,8 +1,8 @@
 <script>
-  import "../app.css";
+  import '../app.css'
 
-  const currentDate = new Date();
-  const currentYear = currentDate.getFullYear();
+  const currentDate = new Date()
+  const currentYear = currentDate.getFullYear()
 </script>
 
 <div class="bg-white">
