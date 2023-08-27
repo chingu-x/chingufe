@@ -130,7 +130,8 @@
     name={'Turn Knowledge into Experience'}
     title={'Real projects in Real teams'}
     description={'When you join Chingu, you will collaborate with others to \
-      build & launch real projects. We match learners from all skill levels, \
+      build & launch real projects using any Web Dev Language (JS, Python, etc.). \
+      We match learners from all skill levels, \
       all timezones, and a variety of different tech stacks.'} />
 
   <div class="flex items-end justify-center h-auto m-auto">
@@ -140,14 +141,14 @@
         description={'A job listings and job application app for working \
           abroad.'}
         tier={'Tier 1 (beginner)'}
-        techStack={'HTML, CSS, Flexbox, Javascript'}
+        techStack={'HTML, CSS, Flexbox'}
         images={[{ type: 'avif', img: '/landing/JobbaticalProject.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/JobbaticalProject.webp', alt: 'Voyage project screenshot' }, { type: 'png', img: '/landing/JobbaticalProject.png', alt: 'Voyage project screenshot' }]} />
       <LandingProjectExample
         name={'Chrome Extension App'}
         description={'A finance app to add income & expense categories \
           with graph rendering.'}
         tier={'Tier 2 (intermediate)'}
-        techStack={'Javascript, SCSS, D3.js, Chrome Storage Sync'}
+        techStack={'Frontend Framework, API usage'}
         images={[{ type: 'avif', img: '/landing/BudgetBoardProject.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/BudgetBoardProject.webp', alt: 'Voyage project screenshot' }, { type: 'png', img: '/landing/BudgetBoardProject.png', alt: 'Voyage project screenshot' }]} />
       <LandingProjectExample
         name={'Volunteer Manager App'}

@@ -168,7 +168,7 @@
       </h2>
       <div class="pt-10 mt-6 border-t border-green-400 border-opacity-25">
         <dl
-          class="space-y-8 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
+          class="space-y-4 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-8">
           <div>
             <dt class="text-lg font-medium leading-6 text-white">
               How can I know I'm ready?
@@ -212,12 +212,12 @@
           </div>
 
           <div>
-            <dt class="text-lg font-medium leading-6 text-white">
+            <dt class="text-lg font-medium text-white leading-2">
               How much time do I have to commit?
             </dt>
             <dd class="mt-2 text-base text-green-200">
               In order for you to get the most out of your voyage, we recommend
-              committing at least 12 hours per week. However, we understand that
+              committing at least 6-8 hours per week. However, we understand that
               your availability may vary from sprint-to-sprint. What's important
               is that you give your team plenty of notice so the team can plan
               for these situations.
