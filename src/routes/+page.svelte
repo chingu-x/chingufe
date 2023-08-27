@@ -148,14 +148,14 @@
         description={'A finance app to add income & expense categories \
           with graph rendering.'}
         tier={'Tier 2 (intermediate)'}
-        techStack={'Frontend Framework, API usage'}
+        techStack={'Frontend Framework & API usage'}
         images={[{ type: 'avif', img: '/landing/BudgetBoardProject.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/BudgetBoardProject.webp', alt: 'Voyage project screenshot' }, { type: 'png', img: '/landing/BudgetBoardProject.png', alt: 'Voyage project screenshot' }]} />
       <LandingProjectExample
         name={'Volunteer Manager App'}
         description={'Helps people to recruit and manage volunteers for a \
           non-profit project.'}
         tier={'Tier 3 (advanced)'}
-        techStack={'MongoDB, React / Redux, Node.js'}
+        techStack={'Backend API, any Database (optional)'}
         images={[{ type: 'avif', img: '/landing/VolunteerAppProject.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/VolunteerAppProject.webp', alt: 'Voyage project screenshot' }, { type: 'png', img: '/landing/VolunteerAppProject.png', alt: 'Voyage project screenshot' }]} />
     </div>
   </div>
