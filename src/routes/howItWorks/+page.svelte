@@ -2,9 +2,9 @@
   import ApplyLink from "../../components/ApplyLink.svelte"
   import Hero from "../../components/Hero.svelte"
   import HowItWorksSection from "../../components/HowItWorks-Section.svelte";
-  import LandingMetric from "../../components/Landing-Metric.svelte";
-  import LandingSection from "../../components/Landing-Section.svelte";
-  import LandingProcessStep from "../../components/Landing-ProcessStep.svelte";
+  import HowItWorksMetric from "../../components/HowItWorks-Metric.svelte";
+  import PageSection from "../../components/Landing-Section.svelte";
+  import HowItWorksProcessStep from "../../components/HowItWorks-ProcessStep.svelte";
 </script>
 
 <Hero
@@ -38,11 +38,11 @@
         <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
           <div class="max-w-4xl mx-auto">
             <div class="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
-              <LandingMetric metric={'2,028'} description={'Developer Teams'} />
-              <LandingMetric
+              <HowItWorksMetric metric={'2,028'} description={'Developer Teams'} />
+              <HowItWorksMetric
                 metric={'11,150+'}
                 description={'Coders & Designers'} />
-              <LandingMetric
+              <HowItWorksMetric
                 metric={'3,200+'}
                 description={'Pair-programming hours'} />
             </div>
@@ -118,7 +118,7 @@
 
 <div
   class="flex flex-col flex-wrap justify-center w-full bg-orange-50 sm:items-center">
-  <LandingSection
+  <PageSection
     name={'How Voyages Work'}
     title={'The Chingu Process'}
     description={'Chingu follows an Agile methodology to create an \
@@ -127,32 +127,32 @@
 
   <div
     class="flex flex-col flex-wrap justify-center flex-grow-0 flex-shrink-0 w-auto h-auto pb-8 sm:ml-0 lg:ml-32">
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep1.svg', alt: 'Chingu process step #1' }]}
+    <HowItWorksProcessStep
+      images={[{ type: 'svg', img: '/how-it-works/process-steps/ProcessStep1.svg', alt: 'Chingu process step #1' }]}
       name={'1. Apply'}
       description={'Your learning adventure starts the moment you decide to \
         join Chingu.'} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep2.svg', alt: 'Chingu process step #2' }]}
+    <HowItWorksProcessStep
+      images={[{ type: 'svg', img: '/how-it-works/process-steps/ProcessStep2.svg', alt: 'Chingu process step #2' }]}
       name={'2. Validate your expertise through a Solo Project'}
       description={"Finish or submit a project to make sure you're prepared \
         for the program."} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep3.svg', alt: 'Chingu process step #3' }]}
+    <HowItWorksProcessStep
+      images={[{ type: 'svg', img: '/how-it-works/process-steps/ProcessStep3.svg', alt: 'Chingu process step #3' }]}
       name={'3. Be placed in a team'}
       description={'Get placed in a remote team of Chingus eager to learn.'} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep4.svg', alt: 'Chingu process step #4' }]}
+    <HowItWorksProcessStep
+      images={[{ type: 'svg', img: '/how-it-works/process-steps/ProcessStep4.svg', alt: 'Chingu process step #4' }]}
       name={'4. Build, build, build'}
       description={'Decide on a project and build it together. Practice \
         critical team workflow.'} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep5.svg', alt: 'Chingu process step #5' }]}
+    <HowItWorksProcessStep
+      images={[{ type: 'svg', img: '/how-it-works/process-steps/ProcessStep5.svg', alt: 'Chingu process step #5' }]}
       name={'5. Overcome obstacles'}
       description={'Overcome obstacles real developers face. Level up as a \
         human.'} />
-    <LandingProcessStep
-      images={[{ type: 'svg', img: '/landing/ProcessStep6.svg', alt: 'Chingu process step #6' }]}
+    <HowItWorksProcessStep
+      images={[{ type: 'svg', img: '/how-it-works/process-steps/ProcessStep6.svg', alt: 'Chingu process step #6' }]}
       name={'6. Succeed & repeat'}
       description={'Get a job, join another Voyage - or do both.'} />
   </div>
