@@ -4,16 +4,17 @@
   import HowItWorksLink from "../components/HowItWorksLink.svelte";
   import LandingProjectExample from "../components/Landing-ProjectExample.svelte";
   import Testimonial from "../components/Testimonial.svelte";
-  import LandingSection from "../components/Landing-Section.svelte";
+  import PageSection from "../components/Page-Section.svelte";
   import ProjectCard from "../components/ProjectCard.svelte";
 </script>
 
 <Hero
   title="Collaborate and"
   subtitle="gain real experience"
-  description="Turn what you've learned online, in bootcamps, & in schools into 
-  the experience needed to land a Software Developer job. Our 6-week remote team 
-  projects help you level-up technical & soft skills sought after by employers."
+  description="Turn what you've learned in courses, bootcamps, & schools into 
+  the experience needed to land a Web Development job as a Developer, 
+  UI/UX Designer, or Product Owner. Our 6-week remote team projects help you 
+  level-up technical & soft skills sought after by employers."
   primaryHref="https://forms.gle/xAjXHyWtRKKh37di8"
   primaryText="Apply for free"
   secondaryHref="/howItWorks"
@@ -94,7 +95,7 @@
 </div>
 
 <div class="pb-10 bg-orange-50">
-  <LandingSection
+  <PageSection
     name={'What Developers Think'}
     title={'Chingu has guided thousands of developers on learning adventures'}
     description={'Chingu has helped thousands of people learning in-demand \
@@ -122,7 +123,7 @@
 </div>
 
 <div class="bg-white">
-  <LandingSection
+  <PageSection
     name={'Turn Knowledge into Experience'}
     title={'Real projects in Real teams'}
     description={'When you join Chingu, you will collaborate with others to \

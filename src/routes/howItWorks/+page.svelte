@@ -3,7 +3,7 @@
   import Hero from "../../components/Hero.svelte"
   import HowItWorksSection from "../../components/HowItWorks-Section.svelte";
   import HowItWorksMetric from "../../components/HowItWorks-Metric.svelte";
-  import PageSection from "../../components/Landing-Section.svelte";
+  import PageSection from "../../components/Page-Section.svelte";
   import HowItWorksProcessStep from "../../components/HowItWorks-ProcessStep.svelte";
 </script>
 
