@@ -11,7 +11,7 @@
   title="Boost your career"
   subtitle="with team projects"
   description="All self-directed developers run into the same problems. No team
-  experience, feeling lost working alone, endless tutorials, not enough finished
+  experience, feeling lost working alone, endless tutorials, & not enough finished
   projects. The good news? Chingu solves them."
   primaryHref="https://forms.gle/xAjXHyWtRKKh37di8"
   primaryText="Apply for free"
@@ -63,7 +63,7 @@
       modern tech companies. Real-time messaging, async communication, task \
       management tools, audio / video meetings, etc.'}
     images={[{ type: 'webp', img: '/how-it-works/TeamScreenshot.webp', alt: 'Team screenshot' }, { type: 'png', img: '/how-it-works/TeamScreenshot.png', alt: 'Team screenshot' }]}
-    details={['Participate in weekly team standups', 'Real-time messaging & async communication', 'Participate in text / audio / video meetings (all depends on your preference as a team)', 'Overcome real challenges developers face on the job']} />
+    details={['Participate in weekly team standups', 'Real-time messaging & async communication', 'Communicate & collaborate with your team in text / audio / video channels', 'Overcome the same challenges developers face on the job']} />
 </div>
 
 <div class="pb-6 bg-orange-50 lg:pb-10">
