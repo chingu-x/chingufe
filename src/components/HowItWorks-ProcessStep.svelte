@@ -1,5 +1,5 @@
 <script>
-  import Picture from "../components/Picture.svelte";
+  import Picture from "./Picture.svelte";
 
   export let images;
   export let name;

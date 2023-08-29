@@ -2,6 +2,10 @@
 	"name": "chingufe",
 	"version": "0.0.1",
 	"type": "module",
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingu-x/chingufe.git"
+  },
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
