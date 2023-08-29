@@ -1,7 +1,6 @@
 <script>
   import ApplyLink from "../../components/ApplyLink.svelte"
   import Hero from "../../components/Hero.svelte";
-
 </script>
 
 <Hero/>
@@ -144,7 +143,7 @@
               </div>
               <p class="mt-4 text-sm">
                 <a
-                  href="/privacy"
+                  href="./../privacy"
                   class="font-medium text-gray-500 underline">
                   Learn about our privacy policy
                 </a>

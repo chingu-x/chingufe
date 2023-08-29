@@ -1,3 +1,7 @@
+<script>
+  //export const prerender = true;
+</script>
+
 <main class="py-10 max-w-3xl mx-auto sm:px-6 lg:px-8">
   <h1 class="text-4xl font-bold tracking-tighter">Privacy Policy</h1>
 
