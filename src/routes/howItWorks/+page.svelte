@@ -113,7 +113,7 @@
       collaboration experience. Learn how other coders approach challenges \
       and how they think.'}
     images={[{ type: 'webp', img: '/how-it-works/PairProgrammingScreenshot.webp', alt: 'Pair Programming' }, { type: 'png', img: '/how-it-works/PairProgrammingScreenshot.png', alt: 'Pair Programming' }]}
-    details={['Meet a new coder every week to solve a coding challenge (optional)', 'Take what you know to the next level by sharing your knowledge with others', 'Learn new technologies and techniques from your peers']} />
+    details={['Meet a new developer every week to solve a coding challenge', 'Take what you know to the next level by sharing your knowledge with others', 'Learn new technologies and techniques from your peers']} />
 </div>
 
 <div
