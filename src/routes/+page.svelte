@@ -134,9 +134,8 @@
   <div class="flex items-end justify-center h-auto m-auto">
     <div class="flex flex-wrap items-end">
       <LandingProjectExample
-        name={'Jobbatical Landing Page'}
-        description={'A job listings and job application app for working \
-          abroad.'}
+        name={'Toucan Coffee'}
+        description={'An e-commerce subscription site for a coffee shop.'}
         tier={'Tier 1 (beginner)'}
         techStack={'HTML, CSS, Flexbox'}
         images={[{ type: 'avif', img: '/landing/tier-projects/Tier1_ToucanCoffee.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/tier-projects/Tier1_ToucanCoffee.webp', alt: 'Voyage project screenshot' }, { type: 'jpeg', img: '/landing/tier-projects/Tier1_ToucanCoffee.jpg', alt: 'Voyage project screenshot' }]} />
