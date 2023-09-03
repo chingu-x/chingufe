@@ -125,7 +125,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-sm text-gray-700">
-                      1 x team project for your portfolio
+                      A team project for your portfolio
                     </p>
                   </li>
                 </ul>
