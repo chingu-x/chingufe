@@ -2,7 +2,6 @@
   import { scale } from "svelte/transition";
   import { cubicIn, cubicOut } from "svelte/easing";
   import Picture from "../components/Picture.svelte";
-  import Button from "../components/Button.svelte";
 
   export let title = '';
   export let subtitle = '';
@@ -16,9 +15,6 @@
   export let images = [];
 
   const heroNavPaddingClasses = images.length ? "pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32" : "pb-6";
-
-  let primaryLinkText = "Sign in";
-  let open = false;
 </script>
 
 <div class="relative bg-white {heroClass}" class:overflow-hidden={images.length}>
@@ -94,74 +90,15 @@
               Pricing
             </a>
 
+            <a
+              href="/donate"
+              class="font-medium text-gray-500 hover:text-gray-900">
+              Donate
+            </a>
+
           </div>
         </nav>
       </div>
-
-      {#if open}
-        <div
-          in:scale|global={{ duration: 100, start: 0.95, easing: cubicOut }}
-          out:scale|global={{ duration: 75, start: 0.95, easing: cubicIn }}
-          class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
-          <div
-            class="overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
-            <div class="flex items-center justify-between px-5 pt-4">
-              <div>
-                <img class="w-auto h-8" src="/logo-192x192.png" alt="Chingu" />
-              </div>
-              <div class="-mr-2">
-                <button
-                  type="button"
-                  on:click={() => (open = false)}
-                  class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
-                  <span class="sr-only">Close main menu</span>
-                  <!-- Heroicon name: x -->
-                  <svg
-                    class="w-6 h-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div
-              role="menu"
-              aria-orientation="vertical"
-              aria-labelledby="main-menu">
-              <div class="px-2 pt-2 pb-3 space-y-1" role="none">
-                <a
-                  href="/"
-                  class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50"
-                  role="menuitem">
-                  Home
-                </a>
-                
-                <a
-                  href="/howItWorks"
-                  class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50"
-                  role="menuitem">
-                  How it works
-                </a>
-
-                <a
-                  href="/pricing"
-                  class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50"
-                  role="menuitem">
-                  Pricing
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      {/if}
 
       {#if title}
         <header
@@ -189,7 +126,7 @@
                 {#if secondaryHref && secondaryText}
                   <div class="mt-3 sm:mt-0 sm:ml-3">
                     <a
-                      href={secondaryHref}
+                      href={secondaryHref} target="_blank"
                       class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-green-700 bg-green-100 border border-transparent rounded-md hover:bg-green-200 md:py-4 md:text-lg md:px-10">
                       {secondaryText}
                     </a>
