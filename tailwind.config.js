@@ -1,11 +1,11 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
-const colors = require('tailwindcss/colors')
+/** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme.js'
+import colors from 'tailwindcss/colors.js'
 
-module.exports = {
-  purge: [
-    './src/**/*.html',
-    './src/**/*.svelte',
-  ],
+export default {
+  content: [
+    './src/**/*.{html,js,svelte,ts}'
+  ],  
   theme: {
     colors: {
       transparent: 'transparent',
@@ -13,7 +13,7 @@ module.exports = {
       black: colors.black,
       blue: colors.blue,
       white: colors.white,
-      gray: colors.trueGray,
+      gray: colors.neutral,
       green: colors.emerald,
       indigo: colors.indigo,
       orange: colors.orange,
@@ -35,8 +35,9 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio'),
+    import('@tailwindcss/forms'),
+    import('@tailwindcss/typography'),
+    import('@tailwindcss/aspect-ratio'),
   ],
 }
+

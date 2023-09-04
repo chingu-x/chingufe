@@ -1,0 +1,8 @@
+@import "tailwindcss/base";
+@import './base.css';
+@import "tailwindcss/components";
+@import './components';
+@import "tailwindcss/utilities";
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9jc3MvaW5kZXguY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDBCQUEwQjtBQUMxQixvQkFBb0I7QUFDcEIsZ0NBQWdDO0FBQ2hDLHNCQUFzQjtBQUN0QiwrQkFBK0IiLCJmaWxlIjoiaW5kZXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcInRhaWx3aW5kY3NzL2Jhc2VcIjtcbkBpbXBvcnQgJy4vYmFzZS5jc3MnO1xuQGltcG9ydCBcInRhaWx3aW5kY3NzL2NvbXBvbmVudHNcIjtcbkBpbXBvcnQgJy4vY29tcG9uZW50cyc7XG5AaW1wb3J0IFwidGFpbHdpbmRjc3MvdXRpbGl0aWVzXCI7XG5cbiJdfQ== */
