@@ -174,12 +174,13 @@
             </dt>
             <dd class="mt-2 text-base text-green-200">
               You will need at least basic HTML / CSS and Javascript skills to 
-              qualify for a Chingu Voyage.', 'Know more than that? Chingu has you covered! 
-              Our Voyages have three different tiers separated by skill 
-              level (beginners, intermediate, advanced) so you can work in the Tier 
-              you are most comfortable in. We also require you to complete a 
-              Solo Project prior to starting your first Voyage so you can discover 
-              what Tier you best fit into.', 'TL;DR - We encourage people at any level (including beginners) to 
+              qualify for a Chingu Voyage. Know more than that? Chingu has you 
+              covered! Our Voyages have three different tiers separated by skill 
+              level (beginners, intermediate, advanced) so you can work in the 
+              Tier you are most comfortable in. We also require you to complete 
+              a Solo Project prior to starting your first Voyage so you can 
+              discover what Tier you best fit into. TLDR - We encourage people 
+              at any level (including beginners) to 
               join, as our Solo Projects are designed to inspire / help people 
               gain the skills they need to be eligible to join.
             </dd>
@@ -254,10 +255,10 @@
               The Solo Project allows new Chingus 
               to find out which Tier they best fit in, and build a project 
               from start to finish to ensure they are ready for the team Voyage
-              project.', "The solo projects are organized by Tier and requires skills that match 
-              the tier that best suits your current skill level. Don't worry if you 
-              find that you have selected the wrong tier - you can change your tier 
-              at any time.
+              project. The solo projects are organized by Tier and requires 
+              skills that match the tier that best suits your current skill 
+              level. Don't worry if you find that you have selected the wrong 
+              tier - you can change your tier at any time.
             </dd>
           </div>
 
@@ -267,7 +268,7 @@
             </dt>
             <dd class="mt-2 text-base text-green-200">
               No worries. Just let us know by emailing your plans to 
-              support@chingu.io
+              <a class="text-white hover:underline" href="mailto:support@chingu.io">support@chingu.io</a>
             </dd>
           </div>
 
@@ -277,7 +278,8 @@
             </dt>
             <dd class="mt-2 text-base text-green-200">
               We'd be happy to answer any questions you have! Please feel free
-              to email them to us at: <a class="text-white hover:underline" href="mailto:support@chingu.io">support@chingu.io</a>
+              to email them to us at: 
+              <a class="text-white hover:underline" href="mailto:support@chingu.io">support@chingu.io</a>
             </dd>
           </div>
         </dl>
