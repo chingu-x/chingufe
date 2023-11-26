@@ -1,5 +1,4 @@
 <script>
-  //export const prerender = true;
 </script>
 
 <main class="py-10 max-w-3xl mx-auto sm:px-6 lg:px-8">
