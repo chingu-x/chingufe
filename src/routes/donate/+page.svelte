@@ -14,7 +14,7 @@
   secondaryText="Buy Chingu merchandise"
   secondaryHref="https://chingu.myspreadshop.com/"
   heroClass="object-center"
-  images={[{ type: 'jpg', img: '/donate/katt-yukawa-K0E6E0a0R3A-unsplash.jpg', alt: 'How it Works' }]} />
+  images={[{ type: 'jpg', img: '/donate/tipjar.jpg', alt: 'Tip jar' }]} />
 
 <div class="pt-6 bg-white sm:pt-10">
   <div class="pt-6 pb-6 bg-orange-50 lg:pt-10 lg:pb-10">
