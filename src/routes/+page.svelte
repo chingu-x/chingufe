@@ -20,7 +20,7 @@
   secondaryHref="/howItWorks"
   secondaryText="Learn more"
   imageClass="object-top lg:object-left"
-  images={[{ type: 'jpg', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.jpg', alt: 'Woman coding in a cafe' }, { type: 'webp', img: '/landing/nicole-wolf--xTBn1YBrTE-unsplash.webp', alt: 'Woman coding in a cafe' }]} />
+  images={[{ type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer' }]} />
 
 <div class="pt-4 bg-white">
   <div class="py-6 bg-orange-50 lg:py-10">
@@ -79,16 +79,16 @@
           title="Gain experience in a remote team"
           description="57% of full-time entry-level jobs now ask for 3 years or
           more of experience."
-          image={[{ type: 'avif', img: '/landing/RemoteTeam2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/RemoteTeam2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/RemoteTeam2.png', alt: 'Team project' }]} />
+          image={[{ type: 'jpg', img: '/landing/developerLaptop.jpg', alt: 'Team project' }]} />
         <ProjectCard
           title="Work on real projects"
           description="Sick of doing tutorial after tutorial with nothing to show
           for them?"
-          image={[{ type: 'avif', img: '/landing/RealProjects2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/RealProjects2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/RealProjects2.png', alt: 'Team project' }]} />
+          image={[{ type: 'jpg', img: '/landing/designersWorking.jpg', alt: 'Team project' }]} />
         <ProjectCard
           title="Join a supportive community"
           description="It can be hard to find someone to help you get unstuck."
-          image={[{ type: 'avif', img: '/landing/SupportiveCommunity2.avif', alt: 'Team project' }, { type: 'webp', img: '/landing/SupportiveCommunity2.webp', alt: 'Team project' }, { type: 'png', img: '/landing/SupportiveCommunity2.png', alt: 'Team project' }]} />
+          image={[{ type: 'jpg', img: '/landing/sunsett.jpg', alt: 'Team project' }]} />
       </div>
     </div>
   </div>
