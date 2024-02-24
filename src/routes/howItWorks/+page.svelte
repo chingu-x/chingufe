@@ -5,6 +5,17 @@
   import HowItWorksMetric from "../../components/HowItWorks-Metric.svelte";
   import PageSection from "../../components/Page-Section.svelte";
   import HowItWorksProcessStep from "../../components/HowItWorks-ProcessStep.svelte";
+  import Modal from "../../components/Modal.svelte";
+
+  let isModalOpen = false;
+
+  const openModal = () => {
+    isModalOpen = true;
+  };
+
+  const closeModal = () => {
+    isModalOpen = false;
+  };
 </script>
 
 <Hero
@@ -13,10 +24,13 @@
   description="All self-directed developers run into the same problems. No team
   experience, feeling lost working alone, endless tutorials, & not enough finished
   projects. The good news? Chingu solves them."
-  primaryHref="https://forms.gle/xAjXHyWtRKKh37di8"
+  primaryAction={openModal}
+  primaryHref="."
   primaryText="Apply for free"
   heroClass="object-center"
   images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
+
+  <Modal isOpen={isModalOpen} close={closeModal} />
 
 <div class="pt-6 bg-white sm:pt-10">
   <div class="pt-6 bg-orange-50 lg:pt-10">
@@ -170,7 +184,9 @@
       <span class="text-green-600">Join Chingu today.</span>
     </h2>
     <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
-      <ApplyLink />
+      <ApplyLink 
+      primaryAction={openModal}
+      />
     </div>
   </div>
 </div>

@@ -1,6 +1,17 @@
 <script>
   import ApplyLink from "../../components/ApplyLink.svelte"
   import Hero from "../../components/Hero.svelte"
+  import Modal from "../../components/Modal.svelte";
+
+  let isModalOpen = false;
+
+  const openModal = () => {
+    isModalOpen = true;
+  };
+
+  const closeModal = () => {
+    isModalOpen = false;
+  };
 </script>
 
 <Hero
@@ -15,6 +26,8 @@
   secondaryHref="https://chingu.myspreadshop.com/"
   heroClass="object-center"
   images={[{ type: 'jpg', img: '/donate/tipjar.jpg', alt: 'Tip jar' }]} />
+
+  <Modal isOpen={isModalOpen} close={closeModal} />
 
 <div class="pt-6 bg-white sm:pt-10">
   <div class="pt-6 pb-6 bg-orange-50 lg:pt-10 lg:pb-10">
@@ -50,7 +63,7 @@
       <span class="text-green-600">Join Chingu today.</span>
     </h2>
     <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
-      <ApplyLink />
+      <ApplyLink primaryAction={openModal}/>
     </div>
   </div>
 </div>
