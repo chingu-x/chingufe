@@ -20,7 +20,7 @@
                 make sure that this is the case and will pre-fill your application with your account name and ID.
             </p>
             <div class="flex space-x-4 pt-8 pb-1">
-                <a href="https://forms.gle/xAjXHyWtRKKh37di8" 
+                <a href="http://localhost:3000/auth/discord" 
                   class="flex-1 px-8 py-3 text-base font-medium text-white bg-green-600 border border-transparent rounded-md hover:bg-green-700 md:py-4 md:text-lg md:px-10 whitespace-nowrap text-center">
                   Apply to Chingu
                 </a>
