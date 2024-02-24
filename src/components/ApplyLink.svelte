@@ -1,8 +1,15 @@
-<a
-  href="https://forms.gle/xAjXHyWtRKKh37di8" target="_blank"
+<script>
+  export let primaryAction = () => {};
+  
+</script>
+
+<button
+  on:click={() => {
+    primaryAction();
+  }}
   class="w-full flex items-center justify-center px-8 py-3
   border border-transparent text-base font-medium rounded-md
   text-white bg-green-600 hover:bg-green-700 md:py-4
   md:text-lg md:px-10">
   Apply for free
-</a>
+</button>
