@@ -6,6 +6,17 @@
   import Testimonial from "../components/Testimonial.svelte";
   import PageSection from "../components/Page-Section.svelte";
   import ProjectCard from "../components/ProjectCard.svelte";
+  import Modal from "../components/Modal.svelte";
+
+  let isModalOpen = false;
+
+  const openModal = () => {
+    isModalOpen = true;
+  };
+
+  const closeModal = () => {
+    isModalOpen = false;
+  };
 </script>
 
 <Hero
@@ -15,12 +26,15 @@
   the experience needed to land a Web Development job as a Developer, 
   UI/UX Designer, or Product Owner. Our 6-week remote team projects help you 
   level-up technical & soft skills sought after by employers."
-  primaryHref="https://forms.gle/xAjXHyWtRKKh37di8"
+  primaryAction={openModal}
+  primaryHref="."
   primaryText="Apply for free"
   secondaryHref="/howItWorks"
   secondaryText="Learn more"
   imageClass="object-top lg:object-left"
   images={[{ type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer' }]} />
+
+  <Modal isOpen={isModalOpen} close={closeModal} />
 
 <div class="pt-4 bg-white">
   <div class="py-6 bg-orange-50 lg:py-10">
@@ -165,7 +179,7 @@
       <span class="text-green-600">Join Chingu today.</span>
     </h2>
     <div class="w-full mt-8 md:w-1/2 gap-x-4 lg:flex-shrink-0 lg:mt-0 sm:flex sm:justify-center lg:justify-start">
-      <ApplyLink />
+      <ApplyLink primaryAction={openModal}/>
       <HowItWorksLink />
     </div>
   </div>

@@ -1,9 +1,21 @@
 <script>
   import ApplyLink from "../../components/ApplyLink.svelte"
   import Hero from "../../components/Hero.svelte";
+  import Modal from "../../components/Modal.svelte";
+
+let isModalOpen = false;
+
+const openModal = () => {
+  isModalOpen = true;
+};
+
+const closeModal = () => {
+  isModalOpen = false;
+};
 </script>
 
 <Hero/>
+<Modal isOpen={isModalOpen} close={closeModal} />
 
 <div class="bg-white">
   <div class="bg-green-50">
@@ -181,7 +193,7 @@
               </p>
               <div class="mt-6">
                 <div class="rounded-md shadow">
-                <ApplyLink />
+                <ApplyLink primaryAction={openModal}/>
                 </div>
               </div>
             </div>
@@ -330,7 +342,7 @@
       </h2>
       <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">
-          <ApplyLink />
+          <ApplyLink primaryAction={openModal}/>
         </div>
       </div>
     </div>

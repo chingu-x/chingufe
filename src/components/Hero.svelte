@@ -14,6 +14,8 @@
   export let imageClass = '';
   export let images = [];
 
+  export let primaryAction = () => {};
+
   const heroNavPaddingClasses = images.length ? "pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32" : "pb-6";
 
   let open = false
@@ -191,11 +193,13 @@
               <div
                 class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">
-                  <a
-                    href={ primaryHref } target="_blank"
+                  <button
+                    on:click={() => {
+                      primaryAction();
+                    }}
                     class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-green-600 border border-transparent rounded-md hover:bg-green-700 md:py-4 md:text-lg md:px-10">
                     {primaryText}
-                  </a>
+                </button>
                 </div>
                 {#if secondaryHref && secondaryText}
                   <div class="mt-3 sm:mt-0 sm:ml-3">
