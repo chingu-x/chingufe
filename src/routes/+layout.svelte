@@ -8,7 +8,7 @@
 <div class="bg-white">
   <div class="max-w-screen-xl mx-auto px-4 overflow-hidden sm:px-6 lg:px-8">
 
-    <div class="w-min-h-screen bg-gray-100">
+    <div class="w-min-h-screen bg-white">
       <slot />
     </div>
 
