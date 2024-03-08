@@ -20,14 +20,28 @@
   description="Our goal is to help Web Developers build experience regardless
     of their financial situation. But, doing this isn't free and we ask for your
     help in paying our bills to keep Chingu running and to help it grow."
-  primaryText="Buy us a coffee for $2"
-  primaryHref="https://www.buymeacoffee.com/chingu"
-  secondaryText="Buy Chingu merchandise"
-  secondaryHref="https://chingu.myspreadshop.com/"
   heroClass="object-center"
   images={[{ type: 'jpg', img: '/donate/tipjar.jpg', alt: 'Tip jar' }]} />
 
-  <Modal isOpen={isModalOpen} close={closeModal} />
+  <Modal isOpen={isModalOpen} close={closeModal}
+/>
+
+<div class="flex-auto items-center justify-center w-full bg-white mt-5 sm:mt-8 sm:flex sm:justify-center">
+  <div class="mt-3 sm:mt-0 sm:ml-3">
+    <a
+      href="https://www.buymeacoffee.com/chingu" target="_blank"
+      class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-green-600 border border-transparent rounded-md hover:bg-green-700 md:py-4 md:text-lg md:px-10">
+      Buy us a coffee for $2
+    </a>
+  </div>
+  <div class="mt-3 sm:mt-0 sm:ml-3">
+    <a
+      href="https://chingu.myspreadshop.com/" target="_blank"
+      class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-green-700 bg-green-100 border border-transparent rounded-md hover:bg-green-200 md:py-4 md:text-lg md:px-10">
+      Buy Chingu merchandise
+    </a>
+  </div>
+</div>
 
 <div class="pt-6 bg-white sm:pt-10">
   <div class="pt-6 pb-6 bg-orange-50 lg:pt-10 lg:pb-10">
