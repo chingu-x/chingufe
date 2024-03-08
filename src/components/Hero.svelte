@@ -22,7 +22,7 @@
 </script>
 
 <div class="relative bg-white {heroClass}" class:overflow-hidden={images.length}>
-  <div class="mx-auto max-w-7xl">
+  <div class="mx-auto max-w-7xl">    
     <div
       class="relative z-10 bg-white lg:max-w-2xl lg:w-full {heroNavPaddingClasses}">
       {#if images.length}
