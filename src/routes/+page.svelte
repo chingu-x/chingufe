@@ -32,7 +32,9 @@
   secondaryHref="/howItWorks"
   secondaryText="Learn more"
   imageClass="object-top lg:object-left"
-  images={[{ type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer' }]} />
+  images={[{ type: 'avif', img: '/landing/webDeveloper.avif', alt: 'Female Developer' },
+    { type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer' }
+  ]} />
 
   <Modal isOpen={isModalOpen} close={closeModal} />
 
