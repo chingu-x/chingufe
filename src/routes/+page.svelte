@@ -32,7 +32,8 @@
   secondaryHref="/howItWorks"
   secondaryText="Learn more"
   imageClass="object-top lg:object-left"
-  images={[{ type: 'avif', img: '/landing/webDeveloper.avif', alt: 'Female Developer' },
+  images={[
+    { type: 'avif', img: '/landing/webDeveloper.avif', alt: 'Female Developer' },
     { type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer' }
   ]} />
 
@@ -95,16 +96,25 @@
           title="Gain experience in a remote team"
           description="57% of full-time entry-level jobs now ask for 3 years or
           more of experience."
-          image={[{ type: 'jpg', img: '/landing/developerLaptop.jpg', alt: 'Team project' }]} />
+          image={[
+            { type: 'avif', img: '/landing/developerLaptop.avif', alt: 'Team project' },
+            { type: 'jpg', img: '/landing/developerLaptop.jpg', alt: 'Team project' }
+          ]} />
         <ProjectCard
           title="Work on real projects"
           description="Sick of doing tutorial after tutorial with nothing to show
           for them?"
-          image={[{ type: 'jpg', img: '/landing/designersWorking.jpg', alt: 'Team project' }]} />
+          image={[
+            { type: 'avif', img: '/landing/designersWorking.avif', alt: 'Team project' },
+            { type: 'jpg', img: '/landing/designersWorking.jpg', alt: 'Team project' }
+          ]} />
         <ProjectCard
           title="Join a supportive community"
           description="It can be hard to find someone to help you get unstuck."
-          image={[{ type: 'jpg', img: '/landing/sunsett.jpg', alt: 'Team project' }]} />
+          image={[
+            { type: 'avif', img: '/landing/sunsett.avif', alt: 'Team project' },
+            { type: 'jpg', img: '/landing/sunsett.jpeg', alt: 'Team project' }
+          ]} />
       </div>
     </div>
   </div>
@@ -154,19 +164,31 @@
         description={'An e-commerce subscription site for a coffee shop.'}
         tier={'Tier 1 (beginner)'}
         techStack={'HTML, CSS, Flexbox'}
-        images={[{ type: 'avif', img: '/landing/tier-projects/Tier1_ToucanCoffee.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/tier-projects/Tier1_ToucanCoffee.webp', alt: 'Voyage project screenshot' }, { type: 'jpeg', img: '/landing/tier-projects/Tier1_ToucanCoffee.jpg', alt: 'Voyage project screenshot' }]} />
+        images={[
+          { type: 'avif', img: '/landing/tier-projects/Tier1_ToucanCoffee.avif', alt: 'Voyage project screenshot' }, 
+          { type: 'webp', img: '/landing/tier-projects/Tier1_ToucanCoffee.webp', alt: 'Voyage project screenshot' }, 
+          { type: 'jpeg', img: '/landing/tier-projects/Tier1_ToucanCoffee.jpeg', alt: 'Voyage project screenshot' }
+        ]} />
       <LandingProjectExample
         name={'Odessey'}
         description={'Explore exciting travel destinations based on your interests.'}
         tier={'Tier 2 (intermediate)'}
         techStack={'Frontend Framework & API usage (optional)'}
-        images={[{ type: 'avif', img: '/landing/tier-projects/Tier2_Odessey.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/tier-projects/Tier2_Odessey.webp', alt: 'Voyage project screenshot' }, { type: 'jpeg', img: '/landing/tier-projects/Tier2_Odessey', alt: 'Voyage project screenshot' }]} />
+        images={[
+          { type: 'avif', img: '/landing/tier-projects/Tier2_Odessey.avif', alt: 'Voyage project screenshot' }, 
+          { type: 'webp', img: '/landing/tier-projects/Tier2_Odessey.webp', alt: 'Voyage project screenshot' }, 
+          { type: 'jpeg', img: '/landing/tier-projects/Tier2_Odessey.jpeg', alt: 'Voyage project screenshot' }
+        ]} />
       <LandingProjectExample
         name={'Scheduling Assistant Mgr.'}
         description={'A tool to create, distribute & maintain work schedules.'}
         tier={'Tier 3 (advanced)'}
         techStack={'Backend API, Database (optional)'}
-        images={[{ type: 'avif', img: '/landing/tier-projects/Tier3_SAM.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/tier-projects/Tier3_SAM.webp', alt: 'Voyage project screenshot' }, { type: 'png', img: '/landing/tier-projects/Tier3_SAM.png', alt: 'Voyage project screenshot' }]} />
+        images={[
+          { type: 'avif', img: '/landing/tier-projects/Tier3_SAM.avif', alt: 'Voyage project screenshot' }, 
+          { type: 'webp', img: '/landing/tier-projects/Tier3_SAM.webp', alt: 'Voyage project screenshot' }, 
+          { type: 'jpeg', img: '/landing/tier-projects/Tier3_SAM.jpeg', alt: 'Voyage project screenshot' }
+        ]} />
     </div>
   </div>
 </div>

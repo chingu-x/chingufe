@@ -28,7 +28,10 @@
   primaryHref="."
   primaryText="Apply for free"
   heroClass="object-center"
-  images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
+  images={[
+    { type: 'avif', img: '/how-it-works/ProjectTeam.avif', alt: 'How it Works' },
+    { type: 'jpeg', img: '/how-it-works/ProjectTeam.jpeg', alt: 'How it Works' }
+  ]} />
 
   <Modal isOpen={isModalOpen} close={closeModal} />
 
@@ -101,7 +104,9 @@
     description={'Just like in the workplace, you will have deadlines. \
       Deadlines will push you out of your comfort zone and accelerate your \
       learning.'}
-    images={[{ type: 'webp', img: '/how-it-works/DeadlinesScreenshot.webp', alt: 'Deadlines' }, { type: 'png', img: '/how-it-works/DeadlinesScreenshot.png', alt: 'Deadlines' }]}
+    images={[
+      { type: 'avif', img: '/how-it-works/DeadlinesScreenshot.avif', alt: 'Deadlines' }, 
+      { type: 'jpeg', img: '/how-it-works/DeadlinesScreenshot.jpeg', alt: 'Deadlines' }]}
     details={['Deadlines will make you actually finish your projects', 'Our deadlines will give structure to your learning journey', 'Get out of tutorial purgatory']} />
 </div>
 
