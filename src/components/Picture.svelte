@@ -19,8 +19,6 @@
     srcsetAttribute = srcsetAttribute.slice(0, srcsetAttribute.length-1)
   }
 
-  // <source srcset={image.img} type={`image/${image.type}`} />
-
 </script>
 
 <picture>
