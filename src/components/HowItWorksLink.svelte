@@ -4,5 +4,5 @@
   border border-transparent text-base font-medium rounded-md
   text-green-700 bg-green-200 hover:bg-green-300 md:py-4 md:mt-0
   md:text-lg md:px-10">
-  Learn more
+  How it works
 </a>

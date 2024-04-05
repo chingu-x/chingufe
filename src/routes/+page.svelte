@@ -30,7 +30,7 @@
   primaryHref="."
   primaryText="Apply for free"
   secondaryHref="/howItWorks"
-  secondaryText="Learn more"
+  secondaryText="How it works"
   imageClass="object-top lg:object-left"
   images={[
     { type: 'avif', img: '/landing/webDeveloper.avif', alt: 'Female Developer' },
