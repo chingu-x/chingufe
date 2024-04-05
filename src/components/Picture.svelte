@@ -7,7 +7,7 @@
 
   const svgImage = images.find(i => i.type === "svg" || images[0])
   const defaultImage =
-    images.find(i => ["avif", "png", "jpg"].includes(i.type)) || images[0]
+    images.find(i => ["avif", "webp", "png", "jpg"].includes(i.type)) || images[0]
   const remainingImages = images.filter(i => i.img !== defaultImage.img)
 
   const resolutions = ['640w', '1x', '1.5x', '2x']
