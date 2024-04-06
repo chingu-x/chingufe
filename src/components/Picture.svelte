@@ -22,7 +22,7 @@
 </script>
 
 <picture>
-  <img class="h-full object-cover {className}" src={defaultImage.img} alt={defaultImage.alt}/>
+  <img class="h-full object-cover {className}" src={defaultImage.img} alt={defaultImage.alt} loading="lazy"/>
   {#each remainingImages as image, i}
     <source srcset={srcsetAttribute} />
   {/each}
