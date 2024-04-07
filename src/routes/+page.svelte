@@ -53,22 +53,22 @@
       <div class="flow-root mt-10 lg:mt-10">
         <div class="flex flex-wrap">
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-2 mr-3 md:mr-auto" src="/landing/company-logos/amazon-logo.png" alt="Amazon">
+            <img class="mt-2 mr-3 md:mr-auto" src="/landing/company-logos/amazon-logo.png" alt="Amazon" height="90" width="160">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-4 md:mt-0" src="/landing/company-logos/intel-logo.png" alt="Intel">
+            <img class="mt-4 md:mt-0" src="/landing/company-logos/intel-logo.png" alt="Intel" height="80" width="80">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-4 md:mt-0" src="/landing/company-logos/redhat-logo.png" alt="Red Hat">
+            <img class="mt-4 md:mt-0" src="/landing/company-logos/redhat-logo.png" alt="Red Hat" height="90" width="160">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-4 md:mt-0" src="/landing/company-logos/facebook-logo.png" alt="Facebook">
+            <img class="mt-4 md:mt-0" src="/landing/company-logos/facebook-logo.png" alt="Facebook" height="90" width="160">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="-mt-6 h-36 md:-mt-12" src="/landing/company-logos/microsoft-logo.svg" alt="Microsoft">
+            <img class="md:-mt-12" src="/landing/company-logos/microsoft-logo.svg" alt="Microsoft" height="90" width="160">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-0 md:mt-0" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn">
+            <img class="mt-0 md:mt-0" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
           </div>
         </div>
       </div>
