@@ -24,6 +24,6 @@
 <picture>
   <img class="h-full object-cover {className}" src={defaultImage.img} alt={defaultImage.alt}/>
   {#each remainingImages as image, i}
-    <source srcset={srcsetAttribute} />
+    <source srcset={srcsetAttribute} sizes="640px"/>
   {/each}
 </picture>

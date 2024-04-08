@@ -33,8 +33,8 @@
   secondaryText="How it works"
   imageClass="object-top lg:object-left"
   images={[
-    { type: 'avif', img: '/landing/webDeveloper.avif', alt: 'Female Developer' },
-    { type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer' }
+    { type: 'avif', img: '/landing/webDeveloper.avif', alt: 'Female Developer', width: "680", height: "680" },
+    { type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer', width: "680", height: "680"  }
   ]} />
 
   <Modal isOpen={isModalOpen} close={closeModal} />
