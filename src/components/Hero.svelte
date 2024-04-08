@@ -47,7 +47,7 @@
                 <img
                   class="w-auto h-8 sm:h-10"
                   src="/logo-with-text-192.png"
-                  alt="Chingu" />
+                  alt="Home" />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
                 <button

@@ -53,16 +53,16 @@
       <div class="flow-root mt-10 lg:mt-10">
         <div class="flex flex-wrap">
           <div class="flex flex-grow flex-shrink-0">
-            <img class="mt-2 mr-3 md:mr-auto" src="/landing/company-logos/amazon-logo.png" alt="Amazon" height="90" width="160">
+            <img class="mt-2 mr-3 md:mr-auto" src="/landing/company-logos/amazon-logo.webp" alt="Amazon" height="85" width="128">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="mt-4 md:mt-0" src="/landing/company-logos/intel-logo.avif" alt="Intel" height="80" width="100">
+            <img class="mt-4 md:mt-0" src="/landing/company-logos/intel-logo.jpg" alt="Intel" height="80" width="100">
           </div>
           <div class="flex flex-grow flex-shrink-0">
             <img class="mt-4 md:mt-0" src="/landing/company-logos/redhat-logo.png" alt="Red Hat" height="160" width="160">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="mt-4 md:mt-0" src="/landing/company-logos/facebook-logo.png" alt="Facebook" height="90" width="200">
+            <img class="mt-4 md:mt-0" src="/landing/company-logos/facebook-logo.jpg" alt="Facebook" height="126" width="126">
           </div>
           <div class="flex flex-grow flex-shrink-0">
             <img class="md:-mt-12" src="/landing/company-logos/microsoft-logo.svg" alt="Microsoft" height="90" width="160">
