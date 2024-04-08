@@ -220,7 +220,7 @@
   {#if images.length}
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <Picture
-        class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full {imageClass}"
+        class="object-cover {imageClass}"
         src={images} />
     </div>
   {/if}

@@ -24,7 +24,7 @@
   subtitle="gain real experience"
   description="Turn what you've learned in courses, bootcamps, & schools into 
   the experience needed to land a Web Development job as a Developer, 
-  UI/UX Designer, or Product Owner. Our 6-week remote team projects help you 
+  UI/UX Designer, Product Owner, or Scrum Master. Our 6-week remote team projects help you 
   level-up technical & soft skills sought after by employers."
   primaryAction={openModal}
   primaryHref="."
@@ -56,13 +56,13 @@
             <img class="mt-2 mr-3 md:mr-auto" src="/landing/company-logos/amazon-logo.png" alt="Amazon" height="90" width="160">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="mt-4 md:mt-0" src="/landing/company-logos/intel-logo.png" alt="Intel" height="80" width="80">
+            <img class="mt-4 md:mt-0" src="/landing/company-logos/intel-logo.avif" alt="Intel" height="80" width="100">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="mt-4 md:mt-0" src="/landing/company-logos/redhat-logo.png" alt="Red Hat" height="90" width="160">
+            <img class="mt-4 md:mt-0" src="/landing/company-logos/redhat-logo.png" alt="Red Hat" height="160" width="160">
           </div>
           <div class="flex flex-grow flex-shrink-0">
-            <img class="mt-4 md:mt-0" src="/landing/company-logos/facebook-logo.png" alt="Facebook" height="90" width="160">
+            <img class="mt-4 md:mt-0" src="/landing/company-logos/facebook-logo.png" alt="Facebook" height="90" width="200">
           </div>
           <div class="flex flex-grow flex-shrink-0">
             <img class="md:-mt-12" src="/landing/company-logos/microsoft-logo.svg" alt="Microsoft" height="90" width="160">
