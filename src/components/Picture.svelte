@@ -10,7 +10,7 @@
     images.find(i => ["avif", "webp", "png", "jpg"].includes(i.type)) || images[0]
   const remainingImages = images.filter(i => i.img !== defaultImage.img)
 
-  const resolutions = ['640w', '1x', '2x']
+  const resolutions = ['320w', '640w', '1280x']
   let srcsetAttribute = ''
   for (let image of remainingImages) {
     for (let i = 0; i < resolutions.length; i++) {

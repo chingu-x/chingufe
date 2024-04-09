@@ -1,4 +1,5 @@
 <script>
+  import '../css/base.css'
   import ApplyLink from "../components/ApplyLink.svelte"
   import Hero from "../components/Hero.svelte";
   import HowItWorksLink from "../components/HowItWorksLink.svelte";
@@ -51,25 +52,25 @@
         </p>
       </div>
       <div class="flow-root mt-10 lg:mt-10">
-        <div class="grid grid-cols-3 gap-2">
-          <div class="flex flex-grow-0 flex-shrink-0 mt-2">
-            <img class="logo" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
-          </div>
-          <div class="flex flex-grow-0 flex-shrink-0 mt-2 mr-3">
-            <img class="logo" src="/landing/company-logos/amazon-logo.jpeg" alt="Amazon" height="85" width="128">
-          </div>
-          <div class="flex mt-4 mr-2">
-            <img class="logo" src="/landing/company-logos/intel-logo.webp" alt="Intel" height="101" width="250">
-          </div>
-          <div class="flex mt-4 mr-2">
-            <img class="logo" src="/landing/company-logos/redhat-logo.jpeg" alt="Red Hat" height="179" width="290">
-          </div>
-          <div class="flex mt-4 mr-2">
-            <img class="logo" src="/landing/company-logos/facebook-logo.jpeg" alt="Facebook" height="278" width="278">
-          </div>
-          <div class="flex mt-4">
-            <img class="logo" src="/landing/company-logos/microsoft-logo.jpeg" alt="Microsoft" height="160" width="318">
-          </div>
+        <div class="grid grid-cols-6">
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-3/4" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-3/4" src="/landing/company-logos/amazon-logo.jpeg" alt="Amazon" height="85" width="128">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-1/2" src="/landing/company-logos/intel-logo.webp" alt="Intel" height="49" width="120">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-fit" src="/landing/company-logos/redhat-logo.jpeg" alt="Red Hat" height="101" width="250">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-fit" src="/landing/company-logos/facebook-logo.jpeg" alt="Facebook" height="278" width="278">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-fit" src="/landing/company-logos/microsoft-logo.jpeg" alt="Microsoft" height="160" width="318">
+          </span>
         </div>
       </div>
     </div>
