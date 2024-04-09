@@ -53,22 +53,22 @@
       <div class="flow-root mt-10 lg:mt-10">
         <div class="grid grid-cols-3 gap-2">
           <div class="flex flex-grow-0 flex-shrink-0 mt-2">
-            <img class="" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
+            <img class="logo" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
           </div>
           <div class="flex flex-grow-0 flex-shrink-0 mt-2 mr-3">
-            <img class="" src="/landing/company-logos/amazon-logo.jpeg" alt="Amazon" height="85" width="128">
+            <img class="logo" src="/landing/company-logos/amazon-logo.jpeg" alt="Amazon" height="85" width="128">
           </div>
           <div class="flex mt-4 mr-2">
-            <img class="" src="/landing/company-logos/intel-logo.webp" alt="Intel" height="101" width="250">
+            <img class="logo" src="/landing/company-logos/intel-logo.webp" alt="Intel" height="101" width="250">
           </div>
           <div class="flex mt-4 mr-2">
-            <img class="" src="/landing/company-logos/redhat-logo.jpeg" alt="Red Hat" height="179" width="290">
+            <img class="logo" src="/landing/company-logos/redhat-logo.jpeg" alt="Red Hat" height="179" width="290">
           </div>
           <div class="flex mt-4 mr-2">
-            <img class="" src="/landing/company-logos/facebook-logo.jpeg" alt="Facebook" height="278" width="278">
+            <img class="logo" src="/landing/company-logos/facebook-logo.jpeg" alt="Facebook" height="278" width="278">
           </div>
           <div class="flex mt-4">
-            <img class="" src="/landing/company-logos/microsoft-logo.jpeg" alt="Microsoft" height="160" width="318">
+            <img class="logo" src="/landing/company-logos/microsoft-logo.jpeg" alt="Microsoft" height="160" width="318">
           </div>
         </div>
       </div>
