@@ -51,24 +51,24 @@
         </p>
       </div>
       <div class="flow-root mt-10 lg:mt-10">
-        <div class="flex flex-wrap">
-          <div class="flex flex-grow flex-shrink">
-            <img class="mt-0 md:mt-0" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
+        <div class="grid grid-cols-3 gap-2">
+          <div class="flex flex-grow-0 flex-shrink-0 mt-2">
+            <img class="" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
           </div>
-          <div class="flex flex-grow flex-shrink-0">
-            <img class="mt-2 mr-3 md:mr-auto" src="/landing/company-logos/amazon-logo.jpeg" alt="Amazon" height="85" width="128">
+          <div class="flex flex-grow-0 flex-shrink-0 mt-2 mr-3">
+            <img class="" src="/landing/company-logos/amazon-logo.jpeg" alt="Amazon" height="85" width="128">
           </div>
-          <div class="flex flex-grow flex-shrink">
-            <img class="mt-4 md:mt-0" src="/landing/company-logos/intel-logo.jpeg" alt="Intel" height="80" width="100">
+          <div class="flex mt-4 mr-2">
+            <img class="" src="/landing/company-logos/intel-logo.webp" alt="Intel" height="101" width="250">
           </div>
-          <div class="flex flex-grow flex-shrink">
-            <img class="mt-4 md:mt-0" src="/landing/company-logos/redhat-logo.jpeg" alt="Red Hat" height="160" width="160">
+          <div class="flex mt-4 mr-2">
+            <img class="" src="/landing/company-logos/redhat-logo.jpeg" alt="Red Hat" height="179" width="290">
           </div>
-          <div class="flex flex-grow flex-shrink">
-            <img class="mt-4 md:mt-0" src="/landing/company-logos/facebook-logo.jpeg" alt="Facebook" height="60" width="220">
+          <div class="flex mt-4 mr-2">
+            <img class="" src="/landing/company-logos/facebook-logo.jpeg" alt="Facebook" height="278" width="278">
           </div>
-          <div class="flex flex-grow flex-shrink">
-            <img class="mt-4" src="/landing/company-logos/microsoft-logo.jpeg" alt="Microsoft" height="80" width="159">
+          <div class="flex mt-4">
+            <img class="" src="/landing/company-logos/microsoft-logo.jpeg" alt="Microsoft" height="160" width="318">
           </div>
         </div>
       </div>

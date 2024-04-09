@@ -10,7 +10,7 @@
     images.find(i => ["avif", "webp", "png", "jpg"].includes(i.type)) || images[0]
   const remainingImages = images.filter(i => i.img !== defaultImage.img)
 
-  const resolutions = ['640w', '1x', '1.5x', '2x']
+  const resolutions = ['640w', '2x', '3x']
   let srcsetAttribute = ''
   for (let image of remainingImages) {
     for (let i = 0; i < resolutions.length; i++) {
@@ -22,8 +22,8 @@
 </script>
 
 <picture>
-  <img class="h-full object-cover {className}" src={defaultImage.img} alt={defaultImage.alt}/>
+  <img class="h-full object-cover {className}" src={defaultImage.img} alt={defaultImage.alt} />
   {#each remainingImages as image, i}
-    <source srcset={srcsetAttribute} sizes="640px"/>
+    <source srcset={srcsetAttribute}/>
   {/each}
 </picture>
