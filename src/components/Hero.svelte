@@ -47,7 +47,7 @@
                 <img
                   class="w-auto h-8 sm:h-10"
                   src="/logo-with-text-192.png"
-                  alt="Chingu" />
+                  alt="Home" />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
                 <button
@@ -220,7 +220,7 @@
   {#if images.length}
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <Picture
-        class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full {imageClass}"
+        class="object-cover {imageClass}"
         src={images} />
     </div>
   {/if}

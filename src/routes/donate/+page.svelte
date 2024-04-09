@@ -21,7 +21,7 @@
     of their financial situation. But, doing this isn't free and we ask for your
     help in paying our bills to keep Chingu running and to help it grow."
   heroClass="object-center"
-  images={[{ type: 'jpg', img: '/donate/tipjar.jpg', alt: 'Tip jar' }]} />
+  images={[{ type: 'avif', img: '/donate/tipjar.avif', alt: 'Tip jar' }, { type: 'jpg', img: '/donate/tipjar.jpg', alt: 'Tip jar' }]} />
 
   <Modal isOpen={isModalOpen} close={closeModal}
 />

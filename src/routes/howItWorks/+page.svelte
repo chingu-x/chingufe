@@ -28,7 +28,10 @@
   primaryHref="."
   primaryText="Apply for free"
   heroClass="object-center"
-  images={[{ type: 'jpg', img: '/how-it-works/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg', alt: 'How it Works' }]} />
+  images={[
+    { type: 'avif', img: '/how-it-works/ProjectTeam.avif', alt: 'How it Works' },
+    { type: 'jpeg', img: '/how-it-works/ProjectTeam.jpeg', alt: 'How it Works' }
+  ]} />
 
   <Modal isOpen={isModalOpen} close={closeModal} />
 
@@ -76,7 +79,10 @@
     description={'Gain experience using collaboration tools that are used in \
       modern tech companies. Real-time messaging, async communication, task \
       management tools, audio / video meetings, etc.'}
-    images={[{ type: 'webp', img: '/how-it-works/TeamScreenshot.webp', alt: 'Team screenshot' }, { type: 'png', img: '/how-it-works/TeamScreenshot.png', alt: 'Team screenshot' }]}
+    images={[
+      { type: 'avif', img: '/how-it-works/TeamScreenshot.avif', alt: 'Team screenshot' }, 
+      { type: 'webp', img: '/how-it-works/TeamScreenshot.webp', alt: 'Team screenshot' }, 
+      { type: 'jpeg', img: '/how-it-works/TeamScreenshot.jpeg', alt: 'Team screenshot' }]}
     details={['Participate in weekly team standups', 'Real-time messaging & async communication', 'Communicate & collaborate with your team in text / audio / video channels', 'Overcome the same challenges developers face on the job']} />
 </div>
 
@@ -88,7 +94,11 @@
     description={"Learn to manage your project's codebase in a team setting \
       like a pro! This is one of the most valuable skills you will learn as \
       a developer and will unlock a new world of collaboration opportunities."}
-    images={[{ type: 'webp', img: '/how-it-works/GithubWorkflowGraphic.webp', alt: 'Tools' }, { type: 'png', img: '/how-it-works/GithubWorkflowGraphic.png', alt: 'Tools' }]}
+    images={[
+      { type: 'avif', img: '/how-it-works/GithubWorkflowGraphic.avif', alt: 'Tools' }, 
+      { type: 'webp', img: '/how-it-works/GithubWorkflowGraphic.webp', alt: 'Tools' }, 
+      { type: 'jpeg', img: '/how-it-works/GithubWorkflowGraphic.jpeg', alt: 'Tools' }
+    ]}
     details={['Build and refine your Git skills', 'Contribute fixes and features to the project using Git and Github', 'Participate in code reviews with teammates to ensure the quality of \
       your project']} />
 </div>
@@ -101,7 +111,9 @@
     description={'Just like in the workplace, you will have deadlines. \
       Deadlines will push you out of your comfort zone and accelerate your \
       learning.'}
-    images={[{ type: 'webp', img: '/how-it-works/DeadlinesScreenshot.webp', alt: 'Deadlines' }, { type: 'png', img: '/how-it-works/DeadlinesScreenshot.png', alt: 'Deadlines' }]}
+    images={[
+      { type: 'avif', img: '/how-it-works/DeadlinesScreenshot.avif', alt: 'Deadlines' }, 
+      { type: 'jpeg', img: '/how-it-works/DeadlinesScreenshot.jpeg', alt: 'Deadlines' }]}
     details={['Deadlines will make you actually finish your projects', 'Our deadlines will give structure to your learning journey', 'Get out of tutorial purgatory']} />
 </div>
 
@@ -114,7 +126,10 @@
       you can make in your career. Technology is always changing, but the \
       need for soft skills does not change. Linkedin found that 57% of senior \
       leaders today say that soft skills are more important than hard skills.'}
-    images={[{ type: 'jpg', img: '/how-it-works/SoftSkills_Keyboard.jpg', alt: 'Soft Skills' }]}
+    images={[
+      { type: 'avif', img: '/how-it-works/SoftSkills_Keyboard.avif', alt: 'Soft Skills' },
+      { type: 'jpeg', img: '/how-it-works/SoftSkills_Keyboard.jpeg', alt: 'Soft Skills' }
+    ]}
     details={['Learn how to communicate your ideas in a professional setting', 'Collaborate with people with different mindsets and from different countries', 'Improve your time-management skills']} />
 </div>
 
@@ -126,7 +141,11 @@
     description={'Learn how to code with another developer and gain valuable \
       collaboration experience. Learn how other coders approach challenges \
       and how they think.'}
-    images={[{ type: 'webp', img: '/how-it-works/PairProgrammingScreenshot.webp', alt: 'Pair Programming' }, { type: 'png', img: '/how-it-works/PairProgrammingScreenshot.png', alt: 'Pair Programming' }]}
+    images={[
+      { type: 'avif', img: '/how-it-works/PairProgrammingScreenshot.avif', alt: 'Pair Programming' }, 
+      { type: 'webp', img: '/how-it-works/PairProgrammingScreenshot.webp', alt: 'Pair Programming' }, 
+      { type: 'jpeg', img: '/how-it-works/PairProgrammingScreenshot.jpeg', alt: 'Pair Programming' }
+    ]}
     details={['Meet a new developer every week to solve a coding challenge', 'Take what you know to the next level by sharing your knowledge with others', 'Learn new technologies and techniques from your peers']} />
 </div>
 

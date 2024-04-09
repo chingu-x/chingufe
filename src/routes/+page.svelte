@@ -1,4 +1,5 @@
 <script>
+  import '../css/base.css'
   import ApplyLink from "../components/ApplyLink.svelte"
   import Hero from "../components/Hero.svelte";
   import HowItWorksLink from "../components/HowItWorksLink.svelte";
@@ -24,15 +25,18 @@
   subtitle="gain real experience"
   description="Turn what you've learned in courses, bootcamps, & schools into 
   the experience needed to land a Web Development job as a Developer, 
-  UI/UX Designer, or Product Owner. Our 6-week remote team projects help you 
+  UI/UX Designer, Product Owner, or Scrum Master. Our 6-week remote team projects help you 
   level-up technical & soft skills sought after by employers."
   primaryAction={openModal}
   primaryHref="."
   primaryText="Apply for free"
   secondaryHref="/howItWorks"
-  secondaryText="Learn more"
+  secondaryText="How it works"
   imageClass="object-top lg:object-left"
-  images={[{ type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer' }]} />
+  images={[
+    { type: 'avif', img: '/landing/webDeveloper.avif', alt: 'Female Developer', width: "680", height: "680" },
+    { type: 'jpg', img: '/landing/webDeveloper.jpg', alt: 'Female Developer', width: "680", height: "680"  }
+  ]} />
 
   <Modal isOpen={isModalOpen} close={closeModal} />
 
@@ -48,25 +52,25 @@
         </p>
       </div>
       <div class="flow-root mt-10 lg:mt-10">
-        <div class="flex flex-wrap">
-          <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-2 mr-3 md:mr-auto" src="/landing/company-logos/amazon-logo.png" alt="Amazon">
-          </div>
-          <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-4 md:mt-0" src="/landing/company-logos/intel-logo.png" alt="Intel">
-          </div>
-          <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-4 md:mt-0" src="/landing/company-logos/redhat-logo.png" alt="Red Hat">
-          </div>
-          <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-4 md:mt-0" src="/landing/company-logos/facebook-logo.png" alt="Facebook">
-          </div>
-          <div class="flex flex-grow flex-shrink-0">
-            <img class="-mt-6 h-36 md:-mt-12" src="/landing/company-logos/microsoft-logo.svg" alt="Microsoft">
-          </div>
-          <div class="flex flex-grow flex-shrink-0">
-            <img class="h-12 mt-0 md:mt-0" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn">
-          </div>
+        <div class="grid grid-cols-3 md:grid-cols-6">
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-3/4" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-3/4" src="/landing/company-logos/amazon-logo.jpeg" alt="Amazon" height="85" width="128">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-1/2" src="/landing/company-logos/intel-logo.webp" alt="Intel" height="49" width="120">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-fit" src="/landing/company-logos/redhat-logo.jpeg" alt="Red Hat" height="101" width="250">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-fit" src="/landing/company-logos/facebook-logo.jpeg" alt="Facebook" height="278" width="278">
+          </span>
+          <span class="flex justify-center items-center">
+            <img class="aspect-[3/2] object-contain mix-blend-multiply w-fit" src="/landing/company-logos/microsoft-logo.jpeg" alt="Microsoft" height="160" width="318">
+          </span>
         </div>
       </div>
     </div>
@@ -93,16 +97,25 @@
           title="Gain experience in a remote team"
           description="57% of full-time entry-level jobs now ask for 3 years or
           more of experience."
-          image={[{ type: 'jpg', img: '/landing/developerLaptop.jpg', alt: 'Team project' }]} />
+          image={[
+            { type: 'avif', img: '/landing/developerLaptop.avif', alt: 'Team project' },
+            { type: 'jpg', img: '/landing/developerLaptop.jpg', alt: 'Team project' }
+          ]} />
         <ProjectCard
           title="Work on real projects"
           description="Sick of doing tutorial after tutorial with nothing to show
           for them?"
-          image={[{ type: 'jpg', img: '/landing/designersWorking.jpg', alt: 'Team project' }]} />
+          image={[
+            { type: 'avif', img: '/landing/designersWorking.avif', alt: 'Team project' },
+            { type: 'jpg', img: '/landing/designersWorking.jpg', alt: 'Team project' }
+          ]} />
         <ProjectCard
           title="Join a supportive community"
           description="It can be hard to find someone to help you get unstuck."
-          image={[{ type: 'jpg', img: '/landing/sunsett.jpg', alt: 'Team project' }]} />
+          image={[
+            { type: 'avif', img: '/landing/sunsett.avif', alt: 'Team project' },
+            { type: 'jpg', img: '/landing/sunsett.jpeg', alt: 'Team project' }
+          ]} />
       </div>
     </div>
   </div>
@@ -152,19 +165,31 @@
         description={'An e-commerce subscription site for a coffee shop.'}
         tier={'Tier 1 (beginner)'}
         techStack={'HTML, CSS, Flexbox'}
-        images={[{ type: 'avif', img: '/landing/tier-projects/Tier1_ToucanCoffee.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/tier-projects/Tier1_ToucanCoffee.webp', alt: 'Voyage project screenshot' }, { type: 'jpeg', img: '/landing/tier-projects/Tier1_ToucanCoffee.jpg', alt: 'Voyage project screenshot' }]} />
+        images={[
+          { type: 'avif', img: '/landing/tier-projects/Tier1_ToucanCoffee.avif', alt: 'Voyage project screenshot' }, 
+          { type: 'webp', img: '/landing/tier-projects/Tier1_ToucanCoffee.webp', alt: 'Voyage project screenshot' }, 
+          { type: 'jpeg', img: '/landing/tier-projects/Tier1_ToucanCoffee.jpeg', alt: 'Voyage project screenshot' }
+        ]} />
       <LandingProjectExample
         name={'Odessey'}
         description={'Explore exciting travel destinations based on your interests.'}
         tier={'Tier 2 (intermediate)'}
         techStack={'Frontend Framework & API usage (optional)'}
-        images={[{ type: 'avif', img: '/landing/tier-projects/Tier2_Odessey.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/tier-projects/Tier2_Odessey.webp', alt: 'Voyage project screenshot' }, { type: 'jpeg', img: '/landing/tier-projects/Tier2_Odessey', alt: 'Voyage project screenshot' }]} />
+        images={[
+          { type: 'avif', img: '/landing/tier-projects/Tier2_Odessey.avif', alt: 'Voyage project screenshot' }, 
+          { type: 'webp', img: '/landing/tier-projects/Tier2_Odessey.webp', alt: 'Voyage project screenshot' }, 
+          { type: 'jpeg', img: '/landing/tier-projects/Tier2_Odessey.jpeg', alt: 'Voyage project screenshot' }
+        ]} />
       <LandingProjectExample
         name={'Scheduling Assistant Mgr.'}
         description={'A tool to create, distribute & maintain work schedules.'}
         tier={'Tier 3 (advanced)'}
         techStack={'Backend API, Database (optional)'}
-        images={[{ type: 'avif', img: '/landing/tier-projects/Tier3_SAM.avif', alt: 'Voyage project screenshot' }, { type: 'webp', img: '/landing/tier-projects/Tier3_SAM.webp', alt: 'Voyage project screenshot' }, { type: 'png', img: '/landing/tier-projects/Tier3_SAM.png', alt: 'Voyage project screenshot' }]} />
+        images={[
+          { type: 'avif', img: '/landing/tier-projects/Tier3_SAM.avif', alt: 'Voyage project screenshot' }, 
+          { type: 'webp', img: '/landing/tier-projects/Tier3_SAM.webp', alt: 'Voyage project screenshot' }, 
+          { type: 'jpeg', img: '/landing/tier-projects/Tier3_SAM.jpeg', alt: 'Voyage project screenshot' }
+        ]} />
     </div>
   </div>
 </div>
