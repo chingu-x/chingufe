@@ -52,7 +52,7 @@
         </p>
       </div>
       <div class="flow-root mt-10 lg:mt-10">
-        <div class="grid grid-cols-6">
+        <div class="grid grid-cols-3 md:grid-cols-6">
           <span class="flex justify-center items-center">
             <img class="aspect-[3/2] object-contain mix-blend-multiply w-3/4" src="/landing/company-logos/linkedin-logo.svg" alt="LinkedIn" height="90" width="160">
           </span>
