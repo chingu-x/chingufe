@@ -1,3 +1,33 @@
+.logo {
+  width: 60%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.logo-fb {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.logo-intel {
+  width: 50%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+/*
+.logo-ms {
+  width: 90%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+*/
+
 p > a {
   @apply text-green-600 transition duration-150 ease-in-out;
 
